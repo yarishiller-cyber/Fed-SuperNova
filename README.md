@@ -38,7 +38,11 @@ robots.txt sitemap.xml llms.txt   SEO + AI-crawl
 2. **Contact form** — currently opens a prefilled email (`mailto:`), so it works with no
    backend. To capture leads server-side, point the form's submit handler at a POST
    endpoint (Hostinger PHP, Formspree, Supabase, etc.).
-3. **Images** — see `images/PROMPTS.md` to swap the inline SVGs for nano-banana renders.
+3. **Images** — ✅ done. The hero and the 10 application tiles now ship as photoreal
+   **nano-banana (Gemini) renders** in `/images/*.webp` (responsive `-480`/`-960` variants),
+   plus a 1200×630 `og-cover.png` social card. `images/PROMPTS.md` documents the prompts;
+   re-run `_shared/tools/nano-banana.mjs` to regenerate any tile. Small UI glyphs (nav,
+   checkmarks, physics icons) stay crisp inline SVG on purpose.
 4. **Verify funding figures** — award caps and intake status change; each Funding Finder
    detail links to the official source. Re-verify before relying on any number.
 
