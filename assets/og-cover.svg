@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fed Supernova Simulation Solutions">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1c"/><stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#29d3c9"/><stop offset="1" stop-color="#4f9dff"/>
+    </linearGradient>
+    <radialGradient id="gl" cx="78%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#29d3c9" stop-opacity=".28"/><stop offset="1" stop-color="#29d3c9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#gl)"/>
+  <!-- mesh -->
+  <g stroke="#29d3c9" stroke-width="1" opacity=".12">
+    <path d="M760 0v630M860 0v630M960 0v630M1060 0v630M700 120h500M700 250h500M700 380h500M700 510h500"/>
+  </g>
+  <!-- contours -->
+  <g fill="none" stroke="url(#ac)" stroke-width="3" opacity=".8">
+    <path d="M720 180q200-70 460 0"/>
+    <path d="M720 250q200-56 460 0"/>
+    <path d="M720 320q220 40 460 10"/>
+    <path d="M720 390q210 70 460 20"/>
+  </g>
+  <!-- logo mark -->
+  <g transform="translate(90,90)">
+    <rect x="0" y="0" width="70" height="70" rx="18" fill="#0f172a" stroke="url(#ac)" stroke-width="2.5"/>
+    <g stroke="url(#ac)" stroke-width="3" stroke-linecap="round">
+      <line x1="35" y1="12" x2="35" y2="22"/><line x1="35" y1="48" x2="35" y2="58"/>
+      <line x1="12" y1="35" x2="22" y2="35"/><line x1="48" y1="35" x2="58" y2="35"/>
+    </g>
+    <circle cx="35" cy="35" r="10" fill="url(#ac)"/>
+  </g>
+  <text x="180" y="120" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#eef3fb">Fed Supernova</text>
+  <text x="180" y="152" font-family="JetBrains Mono, monospace" font-size="17" letter-spacing="3" fill="#29d3c9">SIMULATION SOLUTIONS</text>
+  <!-- headline -->
+  <text x="90" y="330" font-family="Inter, Segoe UI, sans-serif" font-size="62" font-weight="800" fill="#eef3fb">Ansys for defense</text>
+  <text x="90" y="400" font-family="Inter, Segoe UI, sans-serif" font-size="62" font-weight="800" fill="#29d3c9">funding applicants</text>
+  <text x="90" y="470" font-family="Inter, Segoe UI, sans-serif" font-size="27" font-weight="500" fill="#a9b8d4">Simulation software + engineering support to validate</text>
+  <text x="90" y="507" font-family="Inter, Segoe UI, sans-serif" font-size="27" font-weight="500" fill="#a9b8d4">the technology behind SBIR, AFWERX, DIU &amp; DARPA.</text>
+  <rect x="90" y="545" width="330" height="4" rx="2" fill="url(#ac)"/>
+</svg>

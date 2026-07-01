@@ -1,0 +1,25 @@
+# Fed Supernova Simulation Solutions
+
+> Independent Ansys® reseller and engineering-support provider in the United States. We help startups and small businesses pursuing U.S. defense and federal non-dilutive funding (SBIR/STTR, AFWERX, SpaceWERX, DIU, NSIC, DARPA, Army xTech, NASA, NSF, DOE) get Ansys simulation software and live engineering support to build and validate their technology. We supply software and engineering only — we do NOT provide grant/application advice.
+
+## What we do
+- Provide Ansys evaluation licenses, Ansys Startup Program bundles, and discounted simulation software.
+- Provide live engineering support from application engineers (model setup, physics selection, results validation).
+- Serve U.S.-based defense and dual-use technology startups and small businesses.
+
+## What we do NOT do
+- We do not prepare, review, or advise on grant, SBIR/STTR, or contract applications.
+- We are not affiliated with the "Fed Supernova" conference (Capital Factory), Ansys Inc., SimuTech Group, the U.S. Department of Defense, or any funding agency.
+
+## Key pages
+- [Home](https://fedsupernova-simulationlsolutions.com/): Who we help and how.
+- [Funding Finder](https://fedsupernova-simulationlsolutions.com/funding.html): Filterable map of 19+ U.S. defense/federal non-dilutive funding programs by agency, mechanism, award size, and technology area.
+- [Simulation Applications](https://fedsupernova-simulationlsolutions.com/applications.html): The top 10 defense simulation applications (hypersonics, ballistics, antenna/RF, electronics cooling, propulsion, satellites, microelectronics, power electronics, UAVs, directed energy) and the Ansys tools for each.
+- [Ansys & Support](https://fedsupernova-simulationlsolutions.com/ansys.html): Ansys Startup Program eligibility, software bundles, and engineering support.
+- [Contact](https://fedsupernova-simulationlsolutions.com/contact.html): Talk to an Ansys engineer. Email info@fedsupernova-simulationlsolutions.com.
+
+## Context
+Fed Supernova is Capital Factory's annual defense-innovation conference in Austin, Texas, where U.S. defense funders (AFWERX, SpaceWERX, DIU, DARPA, Army, Navy, SBA) present their programs. Founders attending it typically need simulation software to validate the technology behind their funding applications. This site maps that funding and supplies the Ansys tools + engineering support to be ready for it.
+
+## Contact
+Email: info@fedsupernova-simulationlsolutions.com
