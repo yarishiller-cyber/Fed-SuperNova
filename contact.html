@@ -39,7 +39,10 @@
   <div class="drawer-cta"><a class="btn btn-primary" href="#form" data-drawer-close>Request a Meeting</a><a class="btn btn-ghost" href="mailto:info@fedsupernova-simulationlsolutions.com" data-drawer-close>Email Us</a></div>
 </aside>
 
-<section class="tight" style="padding-bottom:24px">
+<section class="page-hero">
+  <img class="bg" src="images/hero-contact.webp"
+       srcset="images/hero-contact-480.webp 480w, images/hero-contact-960.webp 960w, images/hero-contact.webp 1024w"
+       sizes="100vw" width="1024" height="1024" fetchpriority="high" alt="" aria-hidden="true">
   <div class="wrap">
     <span class="eyebrow">Contact</span>
     <h1>Talk to an Ansys engineer <span style="color:var(--accent)">today</span>.</h1>
@@ -142,7 +145,7 @@
       <div class="footer-brand"><a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a><p style="margin-top:16px">Ansys simulation software and engineering support for founders pursuing defense and federal non-dilutive funding across the United States.</p></div>
       <div><h5>Explore</h5><a href="funding.html">Funding Finder</a><a href="applications.html">Simulation Applications</a><a href="ansys.html">Ansys &amp; Support</a><a href="contact.html">Contact</a></div>
       <div><h5>Funding Sources</h5><a href="funding.html">SBIR / STTR</a><a href="funding.html">AFWERX / SpaceWERX</a><a href="funding.html">DIU &amp; NSIC</a><a href="funding.html">DARPA &amp; xTech</a></div>
-      <div><h5>Get in Touch</h5><a href="mailto:info@fedsupernova-simulationlsolutions.com">info@fedsupernova-simulationlsolutions.com</a><a href="contact.html">Request a meeting</a></div>
+      <div><h5>Get in Touch</h5><a href="tel:+18885550142">+1 (888) 555-0142</a><a href="mailto:info@fedsupernova-simulationlsolutions.com">info@fedsupernova-simulationlsolutions.com</a><a href="contact.html">Request a meeting</a></div>
     </div>
     <p class="disclaimer"><b>Independent &amp; not affiliated.</b> Fed Supernova Simulation Solutions is an independent Ansys reseller and engineering-support provider. We are not affiliated with, endorsed by, or sponsored by Capital Factory, the "Fed Supernova" conference, Ansys Inc., SimuTech Group, the U.S. Department of Defense, or any funding agency named on this site. Program names, award amounts, and eligibility rules are summarized from public sources for convenience only, may change, and must be verified on each agency's official website. We provide simulation software and engineering support — we do not prepare, advise on, or assist with grant, SBIR/STTR, or contract applications.</p>
     <div class="footer-bottom"><span>© <span data-year>2026</span> Fed Supernova Simulation Solutions. All rights reserved.</span><span>Ansys® is a registered trademark of Ansys, Inc. Used for identification only.</span></div>
@@ -154,9 +157,10 @@
 /* -------------------------------------------------------------------------
    CONTACT CONFIG — set your real phone number here to enable click-to-call.
    Leave empty ("") and the "Call" button will request a callback by email.
-   Example: var SITE_PHONE = "+18005551234";
+   NOTE: the value below is a PLACEHOLDER (reserved 555-01xx range) — swap it
+   for the real business line before launch. Example: "+18005551234".
    ------------------------------------------------------------------------- */
-var SITE_PHONE = "";
+var SITE_PHONE = "+1 (888) 555-0142";
 var CONTACT_EMAIL = "info@fedsupernova-simulationlsolutions.com";
 
 (function () {
@@ -185,7 +189,7 @@ var CONTACT_EMAIL = "info@fedsupernova-simulationlsolutions.com";
     window.location.href = "mailto:" + CONTACT_EMAIL +
       "?subject=" + encodeURIComponent(subject) +
       "&body=" + encodeURIComponent(body);
-    document.getElementById("formOk").style.display = "block";
+    document.getElementById("formOk").classList.add("show");
     document.getElementById("formOk").scrollIntoView({ behavior: "smooth", block: "center" });
   });
 })();
