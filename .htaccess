@@ -1,51 +1,23 @@
-# Fed Supernova Simulation Solutions — Apache/LiteSpeed config
-# Performance + security + caching only. No rewrite-based redirects: Hostinger
-# terminates SSL at a proxy, so an .htaccess HTTPS force can cause redirect
-# loops (which makes robots.txt look "unreachable" to Google). Force HTTPS and
-# www canonicalization in the Hostinger panel instead.
+# Fed Supernova Simulation Solutions
+# Minimal, module-guarded config only. No redirects, no Options, no
+# ErrorDocument, no top-level access rules — nothing that could 500 the server
+# or block robots.txt. Handle Force-HTTPS and www canonicalization in the
+# Hostinger panel, not here.
 
-Options -Indexes
-
-# ---- Custom error page --------------------------------------------------
-ErrorDocument 404 /404.html
-
-# ---- Compression --------------------------------------------------------
 <IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/javascript application/json image/svg+xml application/xml text/javascript
+  AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml application/xml text/javascript
 </IfModule>
 
-# ---- Browser caching ----------------------------------------------------
 <IfModule mod_expires.c>
   ExpiresActive On
-  ExpiresDefault                        "access plus 7 days"
-  ExpiresByType text/html               "access plus 0 seconds"
   ExpiresByType text/css                "access plus 1 year"
   ExpiresByType application/javascript  "access plus 1 year"
   ExpiresByType image/webp              "access plus 1 year"
-  ExpiresByType image/png               "access plus 1 year"
   ExpiresByType image/svg+xml           "access plus 1 year"
-  ExpiresByType image/jpeg              "access plus 1 year"
-  ExpiresByType image/x-icon            "access plus 1 year"
+  ExpiresByType image/png               "access plus 1 year"
 </IfModule>
 
 <IfModule mod_headers.c>
-  <FilesMatch "\.(css|js|webp|png|jpg|jpeg|svg|ico|woff2)$">
-    Header set Cache-Control "public, max-age=31536000, immutable"
-  </FilesMatch>
-  <FilesMatch "\.(html)$">
-    Header set Cache-Control "public, max-age=0, must-revalidate"
-  </FilesMatch>
   Header always set X-Content-Type-Options "nosniff"
-  Header always set X-Frame-Options "SAMEORIGIN"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
-  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
-</IfModule>
-
-# ---- Block sensitive / non-served files ---------------------------------
-<FilesMatch "^(send-config\.php|.*\.(md|log|gitignore)|.*\.sample\.php)$">
-  Require all denied
-</FilesMatch>
-
-<IfModule mod_mime.c>
-  AddType image/webp .webp
 </IfModule>
