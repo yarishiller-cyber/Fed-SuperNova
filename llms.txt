@@ -17,11 +17,11 @@ Founders for whom two things are true at once: they are looking for funding (fed
 
 ## Key pages
 - Home: https://www.sbir-simulation-funding.com/ — who this is for and the two halves (find funding, get Ansys).
-- Funding Finder: https://www.sbir-simulation-funding.com/funding.html — a filterable map of 27 funding sources (federal non-dilutive and private) by agency, mechanism, capital type, award size, and technology area, each linking to the official source.
-- Funding Events: https://www.sbir-simulation-funding.com/events.html — a 2026–2027 calendar of the U.S. events where founders meet funders (Fed Supernova, AFWERX/SpaceWERX pitch days, DARPA, SBIR Week, TechConnect, AUSA, Space Symposium, Rice Business Plan Competition, MIT $100K, and more).
-- Simulation Applications: https://www.sbir-simulation-funding.com/applications.html — 20 defense/dual-use simulation applications, each with its own page explaining how Ansys helps: hypersonics, ballistics, antenna/RF, electronics thermal, propulsion, satellites, signal/power integrity, electric propulsion, UAVs, directed energy, radar cross-section/stealth, electronic warfare, battery safety, additive manufacturing, shock/vibration, naval hydrodynamics, turbomachinery, composites, photonics/quantum, and digital mission engineering.
-- Ansys & Support: https://www.sbir-simulation-funding.com/ansys.html — Ansys Startup Program eligibility, software bundles, and engineering support.
-- Contact: https://www.sbir-simulation-funding.com/contact.html — send a short form or email info@sbir-simulation-funding.com; reply in under 20 minutes.
+- Funding Finder: https://www.sbir-simulation-funding.com/funding — a filterable map of 27 funding sources (federal non-dilutive and private) by agency, mechanism, capital type, award size, and technology area, each linking to the official source.
+- Funding Events: https://www.sbir-simulation-funding.com/events — a 2026–2027 calendar of the U.S. events where founders meet funders (Fed Supernova, AFWERX/SpaceWERX pitch days, DARPA, SBIR Week, TechConnect, AUSA, Space Symposium, Rice Business Plan Competition, MIT $100K, and more).
+- Simulation Applications: https://www.sbir-simulation-funding.com/applications — 20 defense/dual-use simulation applications, each with its own page explaining how Ansys helps: hypersonics, ballistics, antenna/RF, electronics thermal, propulsion, satellites, signal/power integrity, electric propulsion, UAVs, directed energy, radar cross-section/stealth, electronic warfare, battery safety, additive manufacturing, shock/vibration, naval hydrodynamics, turbomachinery, composites, photonics/quantum, and digital mission engineering.
+- Ansys & Support: https://www.sbir-simulation-funding.com/ansys — Ansys Startup Program eligibility, software bundles, and engineering support.
+- Contact: https://www.sbir-simulation-funding.com/contact — send a short form or email info@sbir-simulation-funding.com; reply in under 20 minutes.
 
 ## Common questions
 - How do I get free Ansys for my startup? Email info@sbir-simulation-funding.com. We arrange free evaluation licenses and check your Ansys Startup Program eligibility.

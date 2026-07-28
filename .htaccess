@@ -1,23 +1,50 @@
-# Fed Supernova Simulation Solutions
-# Minimal, module-guarded config only. No redirects, no Options, no
-# ErrorDocument, no top-level access rules — nothing that could 500 the server
-# or block robots.txt. Handle Force-HTTPS and www canonicalization in the
-# Hostinger panel, not here.
+# Fed Supernova Simulation Solutions — Apache/LiteSpeed config
+# Clean URLs (/funding instead of /funding.html), sane caching, security
+# headers. No host/HTTPS redirects here — force HTTPS in the Hostinger panel.
 
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+# ---- Clean URLs ---------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # 301 old .html URLs to the clean form (checks the ORIGINAL request line,
+  # so the internal rewrite below can never loop).
+  RewriteCond %{THE_REQUEST} \s/([^\s?]+)\.html[\s?]
+  RewriteRule ^ /%1 [R=301,L]
+
+  # Internally serve /page from page.html (no redirect, no loop).
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+  RewriteRule ^([^.]+)$ $1.html [L]
+</IfModule>
+
+# ---- Compression --------------------------------------------------------
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml application/xml text/javascript
 </IfModule>
 
+# ---- Caching ------------------------------------------------------------
+# CSS/JS are unversioned files updated in place, so cache them briefly and
+# bust with ?v= query strings. Images are content-stable: cache long.
 <IfModule mod_expires.c>
   ExpiresActive On
-  ExpiresByType text/css                "access plus 1 year"
-  ExpiresByType application/javascript  "access plus 1 year"
-  ExpiresByType image/webp              "access plus 1 year"
-  ExpiresByType image/svg+xml           "access plus 1 year"
-  ExpiresByType image/png               "access plus 1 year"
+  ExpiresByType text/css                "access plus 1 hour"
+  ExpiresByType application/javascript  "access plus 1 hour"
+  ExpiresByType image/webp              "access plus 30 days"
+  ExpiresByType image/svg+xml           "access plus 30 days"
+  ExpiresByType image/png               "access plus 30 days"
 </IfModule>
-
 <IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+  </FilesMatch>
   Header always set X-Content-Type-Options "nosniff"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>

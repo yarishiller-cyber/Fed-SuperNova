@@ -35,7 +35,7 @@
 
   /* ---- Floating "reply in under 20 minutes" CTA (all pages) ---- */
   if (!document.querySelector(".float-cta")) {
-    var onContact = /contact\.html$/.test(location.pathname);
+    var onContact = /\/contact(\.html)?$/.test(location.pathname);
     var mail = "mailto:info@sbir-simulation-funding.com" +
       "?subject=" + encodeURIComponent("Free Ansys access — quick question") +
       "&body=" + encodeURIComponent(
@@ -47,7 +47,7 @@
         '<span class="fc-note"><i></i> We reply in under 20 minutes</span>' +
         '<div class="fc-row">' +
           '<a class="btn btn-ghost btn-sm" href="' + mail + '">Email us</a>' +
-          '<a class="btn btn-primary btn-sm" href="' + (onContact ? "#form" : "contact.html#form") + '">Get free Ansys</a>' +
+          '<a class="btn btn-primary btn-sm" href="' + (onContact ? "#form" : "/contact#form") + '">Get free Ansys</a>' +
         '</div>' +
       '</div>';
     document.body.appendChild(wrap);
