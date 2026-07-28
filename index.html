@@ -17,12 +17,14 @@
 <meta property="og:title" content="Ansys Simulation for Defense Funding Applicants">
 <meta property="og:description" content="Get Ansys software and live engineering support to build and validate the technology behind your SBIR, AFWERX, SpaceWERX, DIU and DARPA funding.">
 <meta property="og:url" content="https://sbir-simulation-funding.com/">
-<meta property="og:image" content="https://sbir-simulation-funding.com/assets/og-cover.svg">
+<meta property="og:image" content="https://sbir-simulation-funding.com/images/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ansys Simulation for Defense Funding Applicants">
 <meta name="twitter:description" content="Software + engineering support to validate the technology behind your defense funding application.">
-<meta name="twitter:image" content="https://sbir-simulation-funding.com/assets/og-cover.svg">
+<meta name="twitter:image" content="https://sbir-simulation-funding.com/images/og-cover.png">
 <!-- Structured data -->
 <script type="application/ld+json">
 {
@@ -167,37 +169,10 @@
     <div class="hero-visual reveal">
       <div class="frame">
         <div class="cap"><i></i>&nbsp; CFD · Thermal · Structural · EM</div>
-        <svg viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg" aria-label="Simulation contour visualization">
-          <defs>
-            <linearGradient id="cfd" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stop-color="#4f1d6b"/><stop offset=".35" stop-color="#4f9dff"/>
-              <stop offset=".7" stop-color="#29d3c9"/><stop offset="1" stop-color="#ffb020"/>
-            </linearGradient>
-            <radialGradient id="glow" cx="30%" cy="45%" r="70%">
-              <stop offset="0" stop-color="#ffb020" stop-opacity=".9"/>
-              <stop offset=".4" stop-color="#29d3c9" stop-opacity=".5"/>
-              <stop offset="1" stop-color="#4f9dff" stop-opacity="0"/>
-            </radialGradient>
-          </defs>
-          <rect width="520" height="360" fill="#0b1426"/>
-          <!-- airfoil / body -->
-          <path d="M120 200 Q220 120 400 175 Q260 210 120 200 Z" fill="url(#glow)"/>
-          <!-- flow contours -->
-          <g fill="none" stroke="url(#cfd)" stroke-width="2" opacity=".85">
-            <path d="M40 120 Q200 60 480 120"/>
-            <path d="M40 150 Q200 96 480 150"/>
-            <path d="M40 180 Q210 150 480 180"/>
-            <path d="M40 210 Q220 240 480 214"/>
-            <path d="M40 240 Q210 286 480 246"/>
-            <path d="M40 270 Q200 316 480 280"/>
-          </g>
-          <!-- mesh -->
-          <g stroke="#29d3c9" stroke-width=".5" opacity=".22">
-            <path d="M60 40V330M120 40V330M180 40V330M240 40V330M300 40V330M360 40V330M420 40V330M480 40V330"/>
-            <path d="M40 70H500M40 120H500M40 170H500M40 220H500M40 270H500M40 320H500"/>
-          </g>
-          <circle cx="150" cy="192" r="5" fill="#ffb020"/>
-        </svg>
+        <img class="hero-img" src="images/hero.webp"
+             srcset="images/hero-480.webp 480w, images/hero-960.webp 960w, images/hero.webp 1120w"
+             sizes="(max-width: 900px) 100vw, 560px"
+             width="1024" height="706" alt="Startup engineer running a CFD airflow simulation on a missile body in Ansys, with a small satellite prototype on the bench" fetchpriority="high">
       </div>
     </div>
   </div>

@@ -193,6 +193,8 @@ section.tight { padding: 56px 0; }
   color: var(--ink-dim); letter-spacing: .1em; text-transform: uppercase;
 }
 .hero-visual .frame .cap i { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent); }
+.hero-visual .frame .hero-img { display: block; width: 100%; height: auto; }
+.lead-img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm); margin: 8px 0 4px; }
 
 /* ---------- Cards / grid ---------- */
 .grid { display: grid; gap: 22px; }
