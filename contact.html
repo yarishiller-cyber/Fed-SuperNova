@@ -18,7 +18,7 @@
   <div class="wrap nav">
     <a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a>
     <nav class="nav-links">
-      <a href="funding.html">Funding Finder</a>
+      <a href="funding.html">Funding Finder</a><a href="events.html">Funding Events</a>
       <a href="applications.html">Simulation Applications</a>
       <a href="ansys.html">Ansys &amp; Support</a>
       <a href="contact.html" class="active">Contact</a>
@@ -33,6 +33,7 @@
   <div class="drawer-head"><a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a><button class="close-x" data-drawer-close aria-label="Close">✕</button></div>
   <a href="index.html" data-drawer-close>Home</a>
   <a href="funding.html" data-drawer-close>Funding Finder</a>
+  <a href="events.html" data-drawer-close>Funding Events</a>
   <a href="applications.html" data-drawer-close>Simulation Applications</a>
   <a href="ansys.html" data-drawer-close>Ansys &amp; Support</a>
   <a href="contact.html" data-drawer-close>Contact</a>
@@ -43,7 +44,7 @@
   <div class="wrap">
     <span class="eyebrow">Contact · Free to start</span>
     <h1>Email us — find out what you're <span style="color:var(--accent)">eligible</span> for.</h1>
-    <p class="lede">Incorporated, working in stealth, or still just an idea with no company yet — it doesn't matter. Tell us a little about your project and we'll tell you what you can get for free: Ansys evaluation licenses, engineering support to build your MVP, and a read on whether you qualify for the discounted Ansys Startup Program. No cost, no obligation, and <b>no application advice</b> — we provide simulation software and engineering, not grant or SBIR help. Serving startups and founders across the United States.</p>
+    <p class="lede">Incorporated, working in stealth, or still just an idea with no company yet. It doesn't matter. Tell us a little about your project and we'll tell you what you can get for free: Ansys evaluation licenses, engineering support to build your MVP, and a read on whether you qualify for the discounted Ansys Startup Program. No cost, no obligation, and <b>no application advice</b>. We provide simulation software and the engineering to run it, not grant or SBIR help. We work with startups and founders across the United States, and we reply fast.</p>
   </div>
 </section>
 
@@ -65,12 +66,13 @@
         </div>
 
         <div class="card">
+          <p class="reply-chip" style="margin-bottom:16px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg> We reply in under 20 minutes</p>
           <h3>What to expect</h3>
           <ul class="checks" style="margin-top:14px">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span>A real engineer, not a sales script</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span>A reply from a real engineer, not a sales script</span></li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span>A read on which Ansys tools fit your technology</span></li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span>Startup Program eligibility &amp; evaluation-license options</span></li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span>No obligation, no application advice — software &amp; engineering only</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span>Your Startup Program eligibility and evaluation-license options</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span>No obligation. Software and engineering only, never application advice</span></li>
           </ul>
         </div>
       </div>
@@ -79,7 +81,8 @@
       <div class="contact-card" id="form">
         <h3 style="margin-bottom:6px">Request a meeting</h3>
         <p class="form-note" style="margin-bottom:20px">Short form. We reply fast.</p>
-        <div class="form-msg ok" id="formOk">Thanks — your email app should open with your request ready to send. If it didn't, email us at info@sbir-simulation-funding.com.</div>
+        <div class="form-msg ok" id="formOk">Got it. Your message is on its way to our inbox and we'll reply in under 20 minutes during business hours. Check your email for our reply.</div>
+        <div class="form-msg err" id="formErr" style="display:none">Something went wrong sending that. Please email us directly at <a href="mailto:info@sbir-simulation-funding.com">info@sbir-simulation-funding.com</a>.</div>
         <form id="leadForm" novalidate>
           <div class="field">
             <label for="name">Name <span class="req">*</span></label>
@@ -139,8 +142,12 @@
             <label for="msg">Anything else?</label>
             <textarea id="msg" name="msg" placeholder="Tell us a bit about your project and timeline…"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Send Request</button>
-          <p class="form-note" style="margin-top:12px">By sending, you agree to be contacted about Ansys software and engineering support. We never sell your information.</p>
+          <div class="hp" aria-hidden="true" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden">
+            <label for="website">Leave this field empty</label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%" id="leadSubmit">Send &amp; get a reply in &lt; 20 min</button>
+          <p class="form-note" style="margin-top:12px">Sent straight to our inbox. By sending, you agree to be contacted about Ansys software and engineering support. We never sell your information.</p>
         </form>
       </div>
     </div>
@@ -151,11 +158,11 @@
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-brand"><a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a><p style="margin-top:16px">Ansys simulation software and engineering support for founders pursuing defense and federal non-dilutive funding across the United States.</p></div>
-      <div><h5>Explore</h5><a href="funding.html">Funding Finder</a><a href="applications.html">Simulation Applications</a><a href="ansys.html">Ansys &amp; Support</a><a href="contact.html">Contact</a></div>
+      <div><h5>Explore</h5><a href="funding.html">Funding Finder</a><a href="events.html">Funding Events</a><a href="applications.html">Simulation Applications</a><a href="ansys.html">Ansys &amp; Support</a><a href="contact.html">Contact</a></div>
       <div><h5>Funding Sources</h5><a href="funding.html">SBIR / STTR</a><a href="funding.html">AFWERX / SpaceWERX</a><a href="funding.html">DIU &amp; NSIC</a><a href="funding.html">DARPA &amp; xTech</a></div>
       <div><h5>Get in Touch</h5><a href="mailto:info@sbir-simulation-funding.com">info@sbir-simulation-funding.com</a><a href="contact.html">Request a meeting</a></div>
     </div>
-    <p class="disclaimer"><b>Independent &amp; not affiliated.</b> Fed Supernova Simulation Solutions is an independent Ansys reseller and engineering-support provider. We are not affiliated with, endorsed by, or sponsored by Capital Factory, the "Fed Supernova" conference, Ansys Inc., SimuTech Group, the U.S. Department of Defense, or any funding agency named on this site. Program names, award amounts, and eligibility rules are summarized from public sources for convenience only, may change, and must be verified on each agency's official website. We provide simulation software and engineering support — we do not prepare, advise on, or assist with grant, SBIR/STTR, or contract applications.</p>
+    <p class="disclaimer"><b>Independent &amp; not affiliated.</b> Fed Supernova Simulation Solutions is an independent Ansys reseller and engineering-support provider. We are not affiliated with, endorsed by, or sponsored by Capital Factory, the "Fed Supernova" conference, Ansys Inc., SimuTech Group, the U.S. Department of Defense, or any funding agency named on this site. Program names, award amounts, and eligibility rules are summarized from public sources for convenience only, may change, and must be verified on each agency's official website. We provide simulation software and engineering support. We do not prepare, advise on, or assist with grant, SBIR/STTR, or contract applications.</p>
     <div class="footer-bottom"><span>© <span data-year>2026</span> Fed Supernova Simulation Solutions. All rights reserved.</span><span>Ansys® is a registered trademark of Ansys, Inc. Used for identification only.</span></div>
   </div>
 </footer>
@@ -179,12 +186,14 @@ var CONTACT_EMAIL = "info@sbir-simulation-funding.com";
     document.getElementById("callSub").textContent = "Immediate response during business hours";
   }
 
-  // Form → prefilled mailto (works with no backend). Swap for a POST endpoint later.
+  // Form → POST to send.php, which emails us server-side (no mail client involved).
   var form = document.getElementById("leadForm");
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    if (!form.checkValidity()) { form.reportValidity(); return; }
-    var g = function (id) { return (document.getElementById(id).value || "").trim(); };
+  var okBox = document.getElementById("formOk");
+  var errBox = document.getElementById("formErr");
+  var submitBtn = document.getElementById("leadSubmit");
+  var g = function (id) { var el = document.getElementById(id); return el ? (el.value || "").trim() : ""; };
+
+  function mailtoFallback() {
     var subject = "Ansys request — " + (g("company") || g("name") || "new lead");
     var body =
       "Name: " + g("name") + "\n" +
@@ -195,10 +204,39 @@ var CONTACT_EMAIL = "info@sbir-simulation-funding.com";
       "Funding pursued: " + g("funding") + "\n\n" +
       "Message:\n" + g("msg") + "\n";
     window.location.href = "mailto:" + CONTACT_EMAIL +
-      "?subject=" + encodeURIComponent(subject) +
-      "&body=" + encodeURIComponent(body);
-    document.getElementById("formOk").style.display = "block";
-    document.getElementById("formOk").scrollIntoView({ behavior: "smooth", block: "center" });
+      "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!form.checkValidity()) { form.reportValidity(); return; }
+    errBox.style.display = "none";
+    var payload = {
+      name: g("name"), email: g("email"), company: g("company"), stage: g("stage"),
+      tech: g("tech"), funding: g("funding"), msg: g("msg"), website: g("website")
+    };
+    var original = submitBtn.textContent;
+    submitBtn.disabled = true; submitBtn.textContent = "Sending…";
+
+    fetch("send.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    })
+    .then(function (r) { return r.json().catch(function () { return { ok: r.ok }; }); })
+    .then(function (data) {
+      if (data && data.ok) {
+        form.style.display = "none";
+        okBox.style.display = "block";
+        okBox.scrollIntoView({ behavior: "smooth", block: "center" });
+      } else { throw new Error("send"); }
+    })
+    .catch(function () {
+      // Network/PHP failure: don't lose the lead — fall back to the user's mail client.
+      errBox.style.display = "block";
+      submitBtn.disabled = false; submitBtn.textContent = original;
+      mailtoFallback();
+    });
   });
 })();
 </script>

@@ -1,25 +1,38 @@
 # Fed Supernova Simulation Solutions
 
-> Independent Ansys® reseller and engineering-support provider in the United States. We help startups and small businesses pursuing U.S. defense and federal non-dilutive funding (SBIR/STTR, AFWERX, SpaceWERX, DIU, NSIC, DARPA, Army xTech, NASA, NSF, DOE) get Ansys simulation software and live engineering support to build and validate their technology. We supply software and engineering only — we do NOT provide grant/application advice.
+> A free resource for U.S. startup and student founders chasing funding who also need simulation. Two halves: (1) a free, current map of where the non-dilutive money is (SBIR/STTR, AFWERX, SpaceWERX, DIU, DARPA, DOE, NSF, NASA, plus private VC, accelerators and crowdfunding) and a calendar of the events where founders meet funders; (2) how Ansys simulation software validates the technology those funders want to see, and how to get it free to start. We are an independent Ansys reseller and engineering-support provider. We supply software and engineering only. We do NOT provide grant or application advice, and we do not guarantee funding outcomes. We reply to enquiries in under 20 minutes during business hours: info@sbir-simulation-funding.com.
 
-## What we do
-- Provide Ansys evaluation licenses, Ansys Startup Program bundles, and discounted simulation software.
-- Provide live engineering support from application engineers (model setup, physics selection, results validation).
-- Serve U.S.-based defense and dual-use technology startups and small businesses.
+## Who this is for
+Founders for whom two things are true at once: they are looking for funding (federal non-dilutive programs or private capital), AND they have or will need simulation to prove their technology. This includes funded and incorporated startups, teams working in stealth, and founders who have not incorporated yet, including idea-stage and student teams with no company and no funding.
+
+## What we offer, free to start
+- Free Ansys evaluation licenses for the specific tools a project needs.
+- Free engineering support from application engineers to learn and apply Ansys to an MVP (model setup, meshing, physics selection, results).
+- A free check of eligibility for the Ansys Startup Program (deeply discounted Ansys portfolio access for privately held companies under 10 years old with under $5M revenue). Official program: https://www.ansys.com/startup-program
 
 ## What we do NOT do
-- We do not prepare, review, or advise on grant, SBIR/STTR, or contract applications.
-- We are not affiliated with the "Fed Supernova" conference (Capital Factory), Ansys Inc., SimuTech Group, the U.S. Department of Defense, or any funding agency.
+- We do not prepare, write, review, or advise on grant, SBIR/STTR, or contract applications.
+- We do not guarantee any funding outcome.
+- We are not affiliated with the "Fed Supernova" conference (Capital Factory), Ansys Inc., the U.S. Department of Defense, or any funding agency, event, or company named on the site.
 
 ## Key pages
-- [Home](https://sbir-simulation-funding.com/): Who we help and how.
-- [Funding Finder](https://sbir-simulation-funding.com/funding.html): Filterable map of 19+ U.S. defense/federal non-dilutive funding programs by agency, mechanism, award size, and technology area.
-- [Simulation Applications](https://sbir-simulation-funding.com/applications.html): The top 10 defense simulation applications (hypersonics, ballistics, antenna/RF, electronics cooling, propulsion, satellites, microelectronics, power electronics, UAVs, directed energy) and the Ansys tools for each.
-- [Ansys & Support](https://sbir-simulation-funding.com/ansys.html): Ansys Startup Program eligibility, software bundles, and engineering support.
-- [Contact](https://sbir-simulation-funding.com/contact.html): Talk to an Ansys engineer. Email info@sbir-simulation-funding.com.
+- Home: https://sbir-simulation-funding.com/ — who this is for and the two halves (find funding, get Ansys).
+- Funding Finder: https://sbir-simulation-funding.com/funding.html — a filterable map of 27 funding sources (federal non-dilutive and private) by agency, mechanism, capital type, award size, and technology area, each linking to the official source.
+- Funding Events: https://sbir-simulation-funding.com/events.html — a 2026–2027 calendar of the U.S. events where founders meet funders (Fed Supernova, AFWERX/SpaceWERX pitch days, DARPA, SBIR Week, TechConnect, AUSA, Space Symposium, Rice Business Plan Competition, MIT $100K, and more).
+- Simulation Applications: https://sbir-simulation-funding.com/applications.html — 20 defense/dual-use simulation applications, each with its own page explaining how Ansys helps: hypersonics, ballistics, antenna/RF, electronics thermal, propulsion, satellites, signal/power integrity, electric propulsion, UAVs, directed energy, radar cross-section/stealth, electronic warfare, battery safety, additive manufacturing, shock/vibration, naval hydrodynamics, turbomachinery, composites, photonics/quantum, and digital mission engineering.
+- Ansys & Support: https://sbir-simulation-funding.com/ansys.html — Ansys Startup Program eligibility, software bundles, and engineering support.
+- Contact: https://sbir-simulation-funding.com/contact.html — send a short form or email info@sbir-simulation-funding.com; reply in under 20 minutes.
 
-## Context
-Fed Supernova is Capital Factory's annual defense-innovation conference in Austin, Texas, where U.S. defense funders (AFWERX, SpaceWERX, DIU, DARPA, Army, Navy, SBA) present their programs. Founders attending it typically need simulation software to validate the technology behind their funding applications. This site maps that funding and supplies the Ansys tools + engineering support to be ready for it.
+## Common questions
+- How do I get free Ansys for my startup? Email info@sbir-simulation-funding.com. We arrange free evaluation licenses and check your Ansys Startup Program eligibility.
+- Do I need a company to get Ansys? No. Pre-incorporation and idea-stage founders can start now; no legal entity or funding required.
+- Where can I find non-dilutive funding? Start with the Funding Finder (27 sources) and the Funding Events calendar.
+- Do you write SBIR or grant applications? No. We provide simulation software and engineering only.
+
+## Free Ansys learning (official Ansys links)
+- Ansys Startup Program: https://www.ansys.com/startup-program
+- Ansys for Students (free): https://www.ansys.com/academic/students
+- Ansys Innovation Courses (free): https://innovationspace.ansys.com/courses/
 
 ## Contact
-Email: info@sbir-simulation-funding.com
+Email: info@sbir-simulation-funding.com — reply in under 20 minutes during business hours.

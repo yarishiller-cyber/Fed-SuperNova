@@ -11,7 +11,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Fed Supernova Simulation Solutions">
 <meta property="og:title" content="Defense &amp; Federal Non-Dilutive Funding Finder">
-<meta property="og:description" content="A filterable map of 19+ U.S. defense and federal non-dilutive funding programs — by agency, mechanism, award size, and technology area.">
+<meta property="og:description" content="A filterable map of 27 U.S. funding sources for deep-tech founders, federal non-dilutive and private, by agency, mechanism, capital type, award size and technology area.">
 <meta property="og:url" content="https://sbir-simulation-funding.com/funding.html">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
@@ -19,27 +19,144 @@
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "U.S. Defense & Federal Non-Dilutive Funding Programs",
-  "description": "Non-dilutive funding programs for defense and dual-use technology startups, referenced at Fed Supernova.",
+  "name": "U.S. Funding Sources for Defense & Deep-Tech Startups",
+  "description": "Federal non-dilutive and private funding sources for defense and dual-use technology startups.",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "DoD SBIR/STTR" },
-    { "@type": "ListItem", "position": 2, "name": "AFWERX SBIR/STTR Open Topic" },
-    { "@type": "ListItem", "position": 3, "name": "SpaceWERX SBIR/STTR" },
-    { "@type": "ListItem", "position": 4, "name": "STRATFI" },
-    { "@type": "ListItem", "position": 5, "name": "TACFI" },
-    { "@type": "ListItem", "position": 6, "name": "DIU Commercial Solutions Opening" },
-    { "@type": "ListItem", "position": 7, "name": "NSIC" },
-    { "@type": "ListItem", "position": 8, "name": "DARPA BAA" },
-    { "@type": "ListItem", "position": 9, "name": "Army xTech" },
-    { "@type": "ListItem", "position": 10, "name": "ONR / Navy SBIR + Open BAA" },
-    { "@type": "ListItem", "position": 11, "name": "Office of Strategic Capital" },
-    { "@type": "ListItem", "position": 12, "name": "APFIT" },
-    { "@type": "ListItem", "position": 13, "name": "Microelectronics Commons" },
-    { "@type": "ListItem", "position": 14, "name": "NSIN" },
-    { "@type": "ListItem", "position": 15, "name": "NASA SBIR/STTR + iTech" },
-    { "@type": "ListItem", "position": 16, "name": "NSF SBIR/STTR" },
-    { "@type": "ListItem", "position": 17, "name": "DOE SBIR/STTR" },
-    { "@type": "ListItem", "position": 18, "name": "ARPA-E" }
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "DoD SBIR / STTR"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "AFWERX SBIR / STTR (Open Topic)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "SpaceWERX SBIR / STTR (incl. Orbital Prime)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "STRATFI (Strategic Funding Increase)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "TACFI (Tactical Funding Increase)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "DIU Commercial Solutions Opening (CSO)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "NSIC (National Security Innovation Capital)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "DARPA Broad Agency Announcement (BAA)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "name": "Army xTech (xTech|Inversion & related)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "name": "ONR / Navy SBIR + Open BAA"
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "name": "Office of Strategic Capital (OSC)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "name": "APFIT (Accelerate Procurement & Fielding)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "name": "Microelectronics Commons"
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "name": "NASA SBIR / STTR + SBIR Ignite"
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "name": "NSF SBIR / STTR (America's Seed Fund)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "name": "DOE SBIR / STTR"
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "name": "ARPA-E (OPEN / SCALEUP)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "name": "NSF Regional Innovation Engines"
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "name": "EDA Regional Tech Hubs / Build to Scale"
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "name": "Defense & Dual-Use Venture Capital"
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "name": "Strategic Defense Investors (In-Q-Tel, NATO Innovation Fund)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "name": "Startup Accelerators (YC, Techstars, gener8tor)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "name": "Equity Crowdfunding (Reg CF / Reg A+)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "name": "Rewards Crowdfunding (Kickstarter, Indiegogo)"
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "name": "Venture Debt / Revenue-Based Financing"
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "name": "SBA Loans (7(a) / 504) & SBIC Funds"
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "name": "State SBIR-Match & Regional Grants"
+    }
   ]
 }
 </script>
@@ -55,7 +172,7 @@
   <div class="wrap nav">
     <a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a>
     <nav class="nav-links">
-      <a href="funding.html" class="active">Funding Finder</a>
+      <a href="funding.html" class="active">Funding Finder</a><a href="events.html">Funding Events</a>
       <a href="applications.html">Simulation Applications</a>
       <a href="ansys.html">Ansys &amp; Support</a>
       <a href="contact.html">Contact</a>
@@ -70,6 +187,7 @@
   <div class="drawer-head"><a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a><button class="close-x" data-drawer-close aria-label="Close">✕</button></div>
   <a href="index.html" data-drawer-close>Home</a>
   <a href="funding.html" data-drawer-close>Funding Finder</a>
+  <a href="events.html" data-drawer-close>Funding Events</a>
   <a href="applications.html" data-drawer-close>Simulation Applications</a>
   <a href="ansys.html" data-drawer-close>Ansys &amp; Support</a>
   <a href="contact.html" data-drawer-close>Contact</a>
@@ -147,11 +265,11 @@
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-brand"><a class="brand" href="index.html"><img class="logo" src="assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a><p style="margin-top:16px">Ansys simulation software and engineering support for founders pursuing defense and federal non-dilutive funding.</p></div>
-      <div><h5>Explore</h5><a href="funding.html">Funding Finder</a><a href="applications.html">Simulation Applications</a><a href="ansys.html">Ansys &amp; Support</a><a href="contact.html">Contact</a></div>
+      <div><h5>Explore</h5><a href="funding.html">Funding Finder</a><a href="events.html">Funding Events</a><a href="applications.html">Simulation Applications</a><a href="ansys.html">Ansys &amp; Support</a><a href="contact.html">Contact</a></div>
       <div><h5>Funding Sources</h5><a href="funding.html">SBIR / STTR</a><a href="funding.html">AFWERX / SpaceWERX</a><a href="funding.html">DIU &amp; NSIC</a><a href="funding.html">DARPA &amp; xTech</a></div>
       <div><h5>Get in Touch</h5><a href="mailto:info@sbir-simulation-funding.com">info@sbir-simulation-funding.com</a><a href="contact.html">Request a meeting</a></div>
     </div>
-    <p class="disclaimer"><b>Independent &amp; not affiliated.</b> Fed Supernova Simulation Solutions is an independent Ansys reseller and engineering-support provider. We are not affiliated with, endorsed by, or sponsored by Capital Factory, the "Fed Supernova" conference, Ansys Inc., SimuTech Group, the U.S. Department of Defense, or any funding agency named on this site. Program names, award amounts, and eligibility rules are summarized from public sources for convenience only, may change, and must be verified on each agency's official website. We provide simulation software and engineering support — we do not prepare, advise on, or assist with grant, SBIR/STTR, or contract applications.</p>
+    <p class="disclaimer"><b>Independent &amp; not affiliated.</b> Fed Supernova Simulation Solutions is an independent Ansys reseller and engineering-support provider. We are not affiliated with, endorsed by, or sponsored by Capital Factory, the "Fed Supernova" conference, Ansys Inc., SimuTech Group, the U.S. Department of Defense, or any funding agency named on this site. Program names, award amounts, and eligibility rules are summarized from public sources for convenience only, may change, and must be verified on each agency's official website. We provide simulation software and engineering support. We do not prepare, advise on, or assist with grant, SBIR/STTR, or contract applications.</p>
     <div class="footer-bottom"><span>© <span data-year>2026</span> Fed Supernova Simulation Solutions. All rights reserved.</span><span>Ansys® is a registered trademark of Ansys, Inc. Used for identification only.</span></div>
   </div>
 </footer>
