@@ -28,4 +28,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://fedsupernova-simulationlsolutions.com/sitemap.xml
+Sitemap: https://sbir-simulation-funding.com/sitemap.xml

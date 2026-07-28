@@ -12,14 +12,14 @@
 - We are not affiliated with the "Fed Supernova" conference (Capital Factory), Ansys Inc., SimuTech Group, the U.S. Department of Defense, or any funding agency.
 
 ## Key pages
-- [Home](https://fedsupernova-simulationlsolutions.com/): Who we help and how.
-- [Funding Finder](https://fedsupernova-simulationlsolutions.com/funding.html): Filterable map of 19+ U.S. defense/federal non-dilutive funding programs by agency, mechanism, award size, and technology area.
-- [Simulation Applications](https://fedsupernova-simulationlsolutions.com/applications.html): The top 10 defense simulation applications (hypersonics, ballistics, antenna/RF, electronics cooling, propulsion, satellites, microelectronics, power electronics, UAVs, directed energy) and the Ansys tools for each.
-- [Ansys & Support](https://fedsupernova-simulationlsolutions.com/ansys.html): Ansys Startup Program eligibility, software bundles, and engineering support.
-- [Contact](https://fedsupernova-simulationlsolutions.com/contact.html): Talk to an Ansys engineer. Email info@fedsupernova-simulationlsolutions.com.
+- [Home](https://sbir-simulation-funding.com/): Who we help and how.
+- [Funding Finder](https://sbir-simulation-funding.com/funding.html): Filterable map of 19+ U.S. defense/federal non-dilutive funding programs by agency, mechanism, award size, and technology area.
+- [Simulation Applications](https://sbir-simulation-funding.com/applications.html): The top 10 defense simulation applications (hypersonics, ballistics, antenna/RF, electronics cooling, propulsion, satellites, microelectronics, power electronics, UAVs, directed energy) and the Ansys tools for each.
+- [Ansys & Support](https://sbir-simulation-funding.com/ansys.html): Ansys Startup Program eligibility, software bundles, and engineering support.
+- [Contact](https://sbir-simulation-funding.com/contact.html): Talk to an Ansys engineer. Email info@sbir-simulation-funding.com.
 
 ## Context
 Fed Supernova is Capital Factory's annual defense-innovation conference in Austin, Texas, where U.S. defense funders (AFWERX, SpaceWERX, DIU, DARPA, Army, Navy, SBA) present their programs. Founders attending it typically need simulation software to validate the technology behind their funding applications. This site maps that funding and supplies the Ansys tools + engineering support to be ready for it.
 
 ## Contact
-Email: info@fedsupernova-simulationlsolutions.com
+Email: info@sbir-simulation-funding.com

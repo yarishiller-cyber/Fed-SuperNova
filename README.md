@@ -43,7 +43,7 @@ robots.txt sitemap.xml llms.txt   SEO + AI-crawl
    detail links to the official source. Re-verify before relying on any number.
 
 ## Contact
-info@fedsupernova-simulationlsolutions.com
+info@sbir-simulation-funding.com
 
 ---
 *Independent Ansys reseller. Not affiliated with the "Fed Supernova" conference (Capital
