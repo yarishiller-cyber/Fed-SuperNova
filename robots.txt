@@ -28,4 +28,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://sbir-simulation-funding.com/sitemap.xml
+Sitemap: https://www.sbir-simulation-funding.com/sitemap.xml
