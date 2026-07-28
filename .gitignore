@@ -1,0 +1,4 @@
+# Secrets / runtime — never commit
+send-config.php
+leads/
+*.log
