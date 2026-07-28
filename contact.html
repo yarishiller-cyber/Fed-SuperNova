@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Talk to an Ansys Engineer — Contact | Fed Supernova Simulation Solutions</title>
-<meta name="description" content="Talk to an Ansys engineer today about evaluation licenses, the Ansys Startup Program, and live engineering support for your defense funding technology. Call or request a meeting.">
+<title>Check Your Eligibility — Free Ansys for Founders | Fed Supernova Simulation Solutions</title>
+<meta name="description" content="Email us to find out what free Ansys access you're eligible for — evaluation licenses, engineering support for your MVP, and Ansys Startup Program eligibility. For startups, stealth teams, and founders who haven't incorporated yet. No application advice.">
 <link rel="canonical" href="https://sbir-simulation-funding.com/contact.html">
 <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,9 +41,9 @@
 
 <section class="tight" style="padding-bottom:24px">
   <div class="wrap">
-    <span class="eyebrow">Contact</span>
-    <h1>Talk to an Ansys engineer <span style="color:var(--accent)">today</span>.</h1>
-    <p class="lede">Whether you've already applied for funding or you're just exploring, get straight answers about evaluation licenses, the Ansys Startup Program, and live engineering support. No application advice — just simulation software and the experts to help you use it. Serving startups and small businesses across the United States.</p>
+    <span class="eyebrow">Contact · Free to start</span>
+    <h1>Email us — find out what you're <span style="color:var(--accent)">eligible</span> for.</h1>
+    <p class="lede">Incorporated, working in stealth, or still just an idea with no company yet — it doesn't matter. Tell us a little about your project and we'll tell you what you can get for free: Ansys evaluation licenses, engineering support to build your MVP, and a read on whether you qualify for the discounted Ansys Startup Program. No cost, no obligation, and <b>no application advice</b> — we provide simulation software and engineering, not grant or SBIR help. Serving startups and founders across the United States.</p>
   </div>
 </section>
 
@@ -90,8 +90,19 @@
             <input type="email" id="email" name="email" required autocomplete="email">
           </div>
           <div class="field">
-            <label for="company">Company</label>
+            <label for="company">Company <span class="form-note" style="display:inline">(optional — none yet is fine)</span></label>
             <input type="text" id="company" name="company" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="stage">Where are you right now?</label>
+            <select id="stage" name="stage">
+              <option value="">Select your stage…</option>
+              <option>Funded &amp; incorporated startup</option>
+              <option>Working in stealth</option>
+              <option>Pre-incorporation — team &amp; idea</option>
+              <option>Just an idea, exploring</option>
+              <option>Established small business</option>
+            </select>
           </div>
           <div class="field">
             <label for="tech">What do you need to simulate?</label>
@@ -179,6 +190,7 @@ var CONTACT_EMAIL = "info@sbir-simulation-funding.com";
       "Name: " + g("name") + "\n" +
       "Email: " + g("email") + "\n" +
       "Company: " + g("company") + "\n" +
+      "Stage: " + g("stage") + "\n" +
       "Simulation need: " + g("tech") + "\n" +
       "Funding pursued: " + g("funding") + "\n\n" +
       "Message:\n" + g("msg") + "\n";
