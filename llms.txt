@@ -1,0 +1,36 @@
+# ScaleFI Simulation Solutions
+
+> Free guide to Defense Scale-Up Funding — APFIT & Office of Strategic Capital funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@apfit-simulation-funding.com.
+
+## Key pages
+- Funding Finder: https://apfit-simulation-funding.com/funding
+- Events: https://apfit-simulation-funding.com/events
+- Resources: https://apfit-simulation-funding.com/resources
+- Ansys Evals: https://apfit-simulation-funding.com/ansys-evals
+- Applications: https://apfit-simulation-funding.com/applications
+- MVP playbook: https://apfit-simulation-funding.com/mvp
+- Contact: https://apfit-simulation-funding.com/contact
+
+## Guides
+- APFIT explained — and why you can't apply directly: https://apfit-simulation-funding.com/apfit-explained-why-you-cant-apply-directly
+- The DoD Office of Strategic Capital: loans, not grants: https://apfit-simulation-funding.com/office-of-strategic-capital-loans
+- SSBCI: the state money nobody talks about: https://apfit-simulation-funding.com/ssbci-the-state-money-nobody-talks-about
+- Crossing the valley of death in defense tech: https://apfit-simulation-funding.com/crossing-the-valley-of-death
+- Simulation to de-risk your production ramp: https://apfit-simulation-funding.com/simulation-to-de-risk-your-production-ramp
+- How APFIT selection works: who gets funded: https://apfit-simulation-funding.com/how-apfit-selection-works
+- DPA Title III and IBAS: industrial-base money: https://apfit-simulation-funding.com/dpa-title-iii-and-ibas
+- The defense scale-up funding stack: https://apfit-simulation-funding.com/the-defense-scale-up-funding-stack
+
+## Sister sites (same team, other ecosystems)
+- SBIR / STTR: https://sbir-simulation-funding.com/
+- AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
+- Defense Innovation Unit (DIU): https://diu-simulation-funding.com/
+- NASA & Space Technology: https://nasa-simulation-funding.com/
+- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
+- DARPA: https://darpa-simulation-funding.com/
+- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
+- Army xTech: https://xtech-simulation-funding.com/
+- DoD OTA Consortia: https://ota-simulation-funding.com/
+
+## Contact
+Email: info@apfit-simulation-funding.com — reply under 20 minutes during business hours.
