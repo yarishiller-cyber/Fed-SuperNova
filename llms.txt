@@ -1,0 +1,34 @@
+# Orbital Simulation Solutions
+
+> Free guide to NASA Startup & Space Technology Funding funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@nasa-simulation-funding.com.
+
+## Key pages
+- Funding Finder: https://nasa-simulation-funding.com/funding
+- Events: https://nasa-simulation-funding.com/events
+- Resources: https://nasa-simulation-funding.com/resources
+- Ansys Evals: https://nasa-simulation-funding.com/ansys-evals
+- Applications: https://nasa-simulation-funding.com/applications
+- MVP playbook: https://nasa-simulation-funding.com/mvp
+- Contact: https://nasa-simulation-funding.com/contact
+
+## Guides
+- How NASA actually funds space startups: https://nasa-simulation-funding.com/how-nasa-funds-space-startups
+- Funded vs unfunded Space Act Agreements: https://nasa-simulation-funding.com/funded-vs-unfunded-space-act-agreements
+- NASA Tipping Point, explained: https://nasa-simulation-funding.com/nasa-tipping-point-explained
+- Simulate before your first flight: https://nasa-simulation-funding.com/simulation-before-your-first-flight
+- NASA money for idea-stage and stealth teams: https://nasa-simulation-funding.com/nasa-money-for-idea-stage-and-stealth-teams
+- The defense off-ramp for space startups: https://nasa-simulation-funding.com/the-defense-off-ramp-for-space-startups
+
+## Sister sites (same team, other ecosystems)
+- SBIR / STTR: https://sbir-simulation-funding.com/
+- AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
+- Defense Innovation Unit (DIU): https://diu-simulation-funding.com/
+- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
+- DARPA: https://darpa-simulation-funding.com/
+- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
+- Army xTech: https://xtech-simulation-funding.com/
+- DoD OTA Consortia: https://ota-simulation-funding.com/
+- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
+
+## Contact
+Email: info@nasa-simulation-funding.com — reply under 20 minutes during business hours.
