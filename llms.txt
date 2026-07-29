@@ -1,0 +1,35 @@
+# MedDevice Simulation Solutions
+
+> Free guide to Medical Device Funding & FDA-Grade Simulation funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@meddevice-simulation-funding.com.
+
+## Key pages
+- Funding Finder: https://meddevice-simulation-funding.com/funding
+- Events: https://meddevice-simulation-funding.com/events
+- Resources: https://meddevice-simulation-funding.com/resources
+- Ansys Evals: https://meddevice-simulation-funding.com/ansys-evals
+- Applications: https://meddevice-simulation-funding.com/applications
+- MVP playbook: https://meddevice-simulation-funding.com/mvp
+- Contact: https://meddevice-simulation-funding.com/contact
+
+## Guides
+- NIH SBIR for medical devices: the non-dilutive playbook: https://meddevice-simulation-funding.com/nih-sbir-for-medical-devices
+- ARPA-H: how to apply for the grants that aren't grants: https://meddevice-simulation-funding.com/arpa-h-how-to-apply
+- FDA V&V40: why the FDA now wants your simulation: https://meddevice-simulation-funding.com/fda-vv40-credibility
+- In-silico trials explained: virtual patients, real approvals: https://meddevice-simulation-funding.com/in-silico-trials-explained
+- Simulation for medical devices: physics by device type: https://meddevice-simulation-funding.com/simulation-for-medical-devices
+- Who gets funded: how the reviewers actually choose: https://meddevice-simulation-funding.com/who-gets-funded
+- BARDA and MTEC: the preparedness and defense path: https://meddevice-simulation-funding.com/barda-mtec-defense-medical
+
+## Sister sites (same team, other ecosystems)
+- SBIR / STTR: https://sbir-simulation-funding.com/
+- AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
+- Defense Innovation Unit (DIU): https://diu-simulation-funding.com/
+- NASA & Space Technology: https://nasa-simulation-funding.com/
+- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
+- DARPA: https://darpa-simulation-funding.com/
+- Army xTech: https://xtech-simulation-funding.com/
+- DoD OTA Consortia: https://ota-simulation-funding.com/
+- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
+
+## Contact
+Email: info@meddevice-simulation-funding.com — reply under 20 minutes during business hours.
