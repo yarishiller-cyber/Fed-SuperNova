@@ -206,7 +206,7 @@ var CONTACT_EMAIL = "info@sbir-simulation-funding.com";
   var submitBtn = document.getElementById("leadSubmit");
   var g = function (id) { var el = document.getElementById(id); return el ? (el.value || "").trim() : ""; };
 
-  function mailtoFallback() {
+  function mailtoHref() {
     var subject = "Ansys request — " + (g("company") || g("name") || "new lead");
     var body =
       "Name: " + g("name") + "\n" +
@@ -216,8 +216,25 @@ var CONTACT_EMAIL = "info@sbir-simulation-funding.com";
       "Simulation need: " + g("tech") + "\n" +
       "Funding pursued: " + g("funding") + "\n\n" +
       "Message:\n" + g("msg") + "\n";
-    window.location.href = "mailto:" + CONTACT_EMAIL +
+    return "mailto:" + CONTACT_EMAIL +
       "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  }
+
+  // Post the lead one way; resolves true only on a confirmed {ok:true}.
+  function attempt(url, mode, payload) {
+    var opts = { method: "POST" };
+    if (mode === "json") {
+      opts.headers = { "Content-Type": "application/json" };
+      opts.body = JSON.stringify(payload);
+    } else {
+      var p = new URLSearchParams();
+      Object.keys(payload).forEach(function (k) { p.append(k, payload[k]); });
+      opts.body = p; // browser sets application/x-www-form-urlencoded
+    }
+    return fetch(url, opts)
+      .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
+      .then(function (data) { return !!(data && data.ok); })
+      .catch(function () { return false; });
   }
 
   form.addEventListener("submit", function (e) {
@@ -231,25 +248,26 @@ var CONTACT_EMAIL = "info@sbir-simulation-funding.com";
     var original = submitBtn.textContent;
     submitBtn.disabled = true; submitBtn.textContent = "Sending…";
 
-    fetch("/send.php", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
-    })
-    .then(function (r) { return r.json().catch(function () { return { ok: r.ok }; }); })
-    .then(function (data) {
-      if (data && data.ok) {
-        form.style.display = "none";
-        okBox.style.display = "block";
-        okBox.scrollIntoView({ behavior: "smooth", block: "center" });
-      } else { throw new Error("send"); }
-    })
-    .catch(function () {
-      // Network/PHP failure: don't lose the lead — fall back to the user's mail client.
-      errBox.style.display = "block";
-      submitBtn.disabled = false; submitBtn.textContent = original;
-      mailtoFallback();
-    });
+    // Try the primary endpoint as JSON, then form-encoded (some WAFs block
+    // JSON posts), then the legacy endpoint — the form works if ANY succeeds.
+    attempt("/lead.php", "json", payload)
+      .then(function (ok) { return ok || attempt("/lead.php", "form", payload); })
+      .then(function (ok) { return ok || attempt("/send.php", "json", payload); })
+      .then(function (ok) {
+        if (ok) {
+          form.style.display = "none";
+          okBox.style.display = "block";
+          okBox.scrollIntoView({ behavior: "smooth", block: "center" });
+        } else {
+          // Show the fallback with a pre-filled email link — never silently lose a lead.
+          errBox.innerHTML = 'Something went wrong sending that. ' +
+            '<a href="' + mailtoHref().replace(/"/g, "&quot;") + '">Click here to send the same details by email</a> ' +
+            'or write to <a href="mailto:' + CONTACT_EMAIL + '">' + CONTACT_EMAIL + "</a>.";
+          errBox.style.display = "block";
+          errBox.scrollIntoView({ behavior: "smooth", block: "center" });
+          submitBtn.disabled = false; submitBtn.textContent = original;
+        }
+      });
   });
 })();
 </script>

@@ -3,6 +3,9 @@
 
 User-agent: *
 Allow: /
+Disallow: /lead.php
+Disallow: /send.php
+Disallow: /leads/
 
 # Explicitly welcome major AI / LLM crawlers (SEO + generative discovery)
 User-agent: GPTBot
