@@ -1,0 +1,35 @@
+# Dual-Use Simulation Solutions
+
+> Free guide to Defense Innovation Unit (DIU) & NSIC funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@diu-simulation-funding.com.
+
+## Key pages
+- Funding Finder: https://diu-simulation-funding.com/funding
+- Events: https://diu-simulation-funding.com/events
+- Resources: https://diu-simulation-funding.com/resources
+- Ansys Evals: https://diu-simulation-funding.com/ansys-evals
+- Applications: https://diu-simulation-funding.com/applications
+- MVP playbook: https://diu-simulation-funding.com/mvp
+- Contact: https://diu-simulation-funding.com/contact
+
+## Guides
+- How to win a DIU contract through the Commercial Solutions Opening: https://diu-simulation-funding.com/diu-cso-how-to-apply-and-timeline
+- What is an OTA prototype contract?: https://diu-simulation-funding.com/what-is-an-ota-prototype-contract
+- DIU vs SBIR: two doors into DoD funding: https://diu-simulation-funding.com/diu-vs-sbir
+- What is NSIC - and is your hardware startup a fit?: https://diu-simulation-funding.com/what-is-nsic-funding
+- Is NSIN still active after joining DIU?: https://diu-simulation-funding.com/is-nsin-still-active
+- Simulation for dual-use hardware: https://diu-simulation-funding.com/simulation-for-dual-use-hardware
+- The counter-UAS simulation playbook: https://diu-simulation-funding.com/counter-uas-simulation-playbook
+
+## Sister sites (same team, other ecosystems)
+- SBIR / STTR: https://sbir-simulation-funding.com/
+- AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
+- NASA & Space Technology: https://nasa-simulation-funding.com/
+- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
+- DARPA: https://darpa-simulation-funding.com/
+- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
+- Army xTech: https://xtech-simulation-funding.com/
+- DoD OTA Consortia: https://ota-simulation-funding.com/
+- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
+
+## Contact
+Email: info@diu-simulation-funding.com — reply under 20 minutes during business hours.
