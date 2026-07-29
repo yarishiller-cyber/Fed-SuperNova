@@ -519,7 +519,7 @@ form textarea { resize: vertical; min-height: 110px; }
   .filters.mobile-collapsed { display: none; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1140px) {
   .nav-links, .nav-cta .btn { display: none; }
   .hamburger { display: inline-flex; }
 }
@@ -561,3 +561,47 @@ body {
 .card:hover, .fund-card:hover, .ev-card:hover, a.app-tile:hover {
   box-shadow: 0 10px 26px -10px rgba(0,0,0,.2);
 }
+
+/* =========================================================================
+   Resources hub + articles
+   ========================================================================= */
+.res-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.res-card {
+  background: var(--panel); border: 1px solid #D6D6D6; border-radius: var(--radius);
+  padding: 22px 24px; display: flex; flex-direction: column; text-decoration: none;
+  color: inherit; box-shadow: 0 2px 10px -4px rgba(0,0,0,.12);
+  transition: transform .16s ease, border-color .2s ease, box-shadow .2s ease;
+}
+.res-card:hover { transform: translateY(-3px); border-color: var(--gold); box-shadow: 0 10px 26px -10px rgba(0,0,0,.2); color: inherit; }
+.res-card .rc-cat { font: 700 .7rem/1 var(--mono); color: var(--accent); letter-spacing: .1em; text-transform: uppercase; margin-bottom: 10px; }
+.res-card h3 { font-size: 1.08rem; margin-bottom: 8px; }
+.res-card p { font-size: .9rem; color: var(--ink-soft); margin: 0 0 14px; }
+.res-card .rc-more { margin-top: auto; font: 700 .8rem/1 var(--mono); color: var(--ink-dim); }
+.res-card:hover .rc-more { color: var(--accent); }
+@media (max-width: 900px) { .res-grid { grid-template-columns: 1fr; } }
+
+.article { max-width: 780px; }
+.article .a-meta { font: 600 .8rem/1.5 var(--mono); color: var(--ink-dim); margin-bottom: 26px; }
+.article h2 { margin-top: 1.7em; font-size: 1.5rem; }
+.article h3 { margin-top: 1.3em; font-size: 1.15rem; }
+.article p, .article li { font-size: 1.04rem; color: #333; }
+.article ul, .article ol { padding-left: 1.3em; margin: 0 0 1rem; }
+.article li { margin-bottom: .45em; }
+.article table { width: 100%; border-collapse: collapse; margin: 1.2em 0; background: #fff; font-size: .96rem; }
+.article th, .article td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+.article th { background: #F4F4F4; font-weight: 700; }
+.article .key-answer {
+  background: #fff; border: 1px solid #D6D6D6; border-left: 4px solid var(--gold);
+  border-radius: 8px; padding: 16px 20px; margin: 0 0 1.4em; font-size: 1.05rem; color: #222;
+}
+.article .srcs { font-size: .86rem; color: var(--ink-dim); border-top: 1px solid var(--line); padding-top: 16px; margin-top: 2em; }
+.article .srcs a { color: var(--accent-2); }
+
+/* The soft Ansys aside used inside every article */
+.ansys-aside {
+  background: #FFF9EC; border: 1px solid #F0DCA8; border-radius: var(--radius);
+  padding: 20px 22px; margin: 1.8em 0;
+}
+.ansys-aside .aa-tag { font: 700 .7rem/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+.ansys-aside p { font-size: .96rem; color: #4a3c14; margin: 0 0 12px; }
+.ansys-aside .btn { margin-right: 8px; }

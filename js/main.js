@@ -47,7 +47,7 @@
         '<span class="fc-note"><i></i> We reply in under 20 minutes</span>' +
         '<div class="fc-row">' +
           '<a class="btn btn-ghost btn-sm" href="' + mail + '">Email us</a>' +
-          '<a class="btn btn-primary btn-sm" href="' + (onContact ? "#form" : "/contact#form") + '">Get free Ansys</a>' +
+          '<a class="btn btn-primary btn-sm" href="' + (onContact ? "#form" : "/contact#form") + '">Ask about evals</a>' +
         '</div>' +
       '</div>';
     document.body.appendChild(wrap);

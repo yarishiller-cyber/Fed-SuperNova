@@ -29,6 +29,21 @@ Founders for whom two things are true at once: they are looking for funding (fed
 - Where can I find non-dilutive funding? Start with the Funding Finder (27 sources) and the Funding Events calendar.
 - Do you write SBIR or grant applications? No. We provide simulation software and engineering only.
 
+## SBIR Resources (free educational guides)
+- Resources hub: https://www.sbir-simulation-funding.com/resources — all free SBIR/STTR and federal-funding guides in one place.
+- What is SBIR?: https://www.sbir-simulation-funding.com/what-is-sbir — America's Seed Fund explained: $4B+/year, 11 agencies, non-dilutive.
+- SBIR Phase I, II & III: https://www.sbir-simulation-funding.com/sbir-phases — what each phase funds (~$323K Phase I, ~$2.15M Phase II guidelines) and how to move between them.
+- SBIR eligibility: https://www.sbir-simulation-funding.com/sbir-eligibility — the small-business rules, the >50% PI employment rule, and the pre-incorporation path (you can start before you have a company).
+- How SBIR Phase I proposals are scored: https://www.sbir-simulation-funding.com/win-sbir-phase-1 — evaluation criteria and what reviewers look for.
+- SBIR grants vs contracts: https://www.sbir-simulation-funding.com/sbir-grants-vs-contracts — NSF/DOE/NIH grants vs DoD/NASA contracts and why the difference matters.
+- DoD SBIR guide: https://www.sbir-simulation-funding.com/dod-sbir — the largest SBIR agency: topics, D2P2, Phase III, defense primes.
+- NSF vs NASA vs DOE SBIR: https://www.sbir-simulation-funding.com/nsf-nasa-doe-sbir — how the three science agencies differ and which fits your tech.
+- NIH SBIR for medical devices: https://www.sbir-simulation-funding.com/nih-sbir-medical-devices — the health agency's program for med-tech and biotech founders.
+- SBIR vs STTR: https://www.sbir-simulation-funding.com/sttr-vs-sbir — which program fits, especially for university-affiliated founders.
+- Simulation for SBIR proposals: https://www.sbir-simulation-funding.com/simulation-for-sbir — using engineering simulation as feasibility evidence in Phase I/II.
+- SBIR registration checklist: https://www.sbir-simulation-funding.com/sbir-registration-checklist — SAM.gov, SBIR.gov, agency portals, and the 2–6 week timeline.
+- About this site: https://www.sbir-simulation-funding.com/about — purely informational; nothing guaranteed, promised, or owed to anyone.
+
 ## Free Ansys learning (official Ansys links)
 - Ansys Startup Program: https://www.ansys.com/startup-program
 - Ansys for Students (free): https://www.ansys.com/academic/students
