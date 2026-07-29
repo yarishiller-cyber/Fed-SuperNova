@@ -1,0 +1,34 @@
+# Vanguard Simulation Solutions
+
+> Free guide to Army xTech & Army SBIR Funding funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@xtech-simulation-funding.com.
+
+## Key pages
+- Funding Finder: https://xtech-simulation-funding.com/funding
+- Events: https://xtech-simulation-funding.com/events
+- Resources: https://xtech-simulation-funding.com/resources
+- Ansys Evals: https://xtech-simulation-funding.com/ansys-evals
+- Applications: https://xtech-simulation-funding.com/applications
+- MVP playbook: https://xtech-simulation-funding.com/mvp
+- Contact: https://xtech-simulation-funding.com/contact
+
+## Guides
+- Army xTech: cash prizes with no strings, and a door into Army SBIR: https://xtech-simulation-funding.com/what-is-army-xtech
+- The xTech-to-SBIR path: from a prize check to a $2M contract: https://xtech-simulation-funding.com/xtech-to-sbir-path
+- Who wins xTech and what the winners have in common: https://xtech-simulation-funding.com/who-wins-xtech
+- Simulation for Army systems: survive on screen before the field: https://xtech-simulation-funding.com/simulation-for-army-systems
+- The 2026 xTech calendar: every deadline that matters: https://xtech-simulation-funding.com/xtech-competition-calendar
+- Non-dilutive by design: keep your equity, keep your IP: https://xtech-simulation-funding.com/non-dilutive-defense-funding
+
+## Sister sites (same team, other ecosystems)
+- SBIR / STTR: https://sbir-simulation-funding.com/
+- AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
+- Defense Innovation Unit (DIU): https://diu-simulation-funding.com/
+- NASA & Space Technology: https://nasa-simulation-funding.com/
+- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
+- DARPA: https://darpa-simulation-funding.com/
+- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
+- DoD OTA Consortia: https://ota-simulation-funding.com/
+- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
+
+## Contact
+Email: info@xtech-simulation-funding.com — reply under 20 minutes during business hours.
