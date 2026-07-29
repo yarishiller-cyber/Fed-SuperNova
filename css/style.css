@@ -127,8 +127,8 @@ h1 span, .hero h1 span { color: inherit !important; text-decoration: underline; 
 
 .nav-links { display: flex; align-items: center; gap: 2px; }
 .nav-links a {
-  color: #444; font-weight: 600; font-size: .92rem; white-space: nowrap;
-  padding: .5em .7em; border-radius: 6px;
+  color: #444; font-weight: 600; font-size: .88rem; white-space: nowrap;
+  padding: .5em .55em; border-radius: 6px;
 }
 .nav-links a:hover, .nav-links a.active { color: #000; background: #F2F2F2; }
 .nav-cta { display: flex; align-items: center; gap: 10px; }
@@ -519,7 +519,7 @@ form textarea { resize: vertical; min-height: 110px; }
   .filters.mobile-collapsed { display: none; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
-@media (max-width: 1140px) {
+@media (max-width: 1430px) {
   .nav-links, .nav-cta .btn { display: none; }
   .hamburger { display: inline-flex; }
 }

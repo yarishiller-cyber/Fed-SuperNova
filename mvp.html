@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>Build a Hardware MVP With Simulation — What Investors &amp; Grant Reviewers Want to See | Fed Supernova</title>
+<meta name="description" content="The founder's playbook for a simulation-built MVP: what an MVP means for hardware and deep tech, why virtual prototypes de-risk your raise, what investors and SBIR reviewers actually look for, and the 4-step process using FEA, CFD, and electromagnetics tools like Ansys Mechanical, Fluent, and HFSS.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://www.sbir-simulation-funding.com/mvp">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Fed Supernova Simulation Solutions">
+<meta property="og:title" content="Build a Hardware MVP With Simulation — the Founder's Playbook">
+<meta property="og:description" content="What investors and grant reviewers want to see, and the 4-step process to a simulation-built MVP using FEA, CFD, and electromagnetics.">
+<meta property="og:url" content="https://www.sbir-simulation-funding.com/mvp">
+<meta property="og:image" content="https://www.sbir-simulation-funding.com/images/mvp-hero.webp">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.sbir-simulation-funding.com/images/mvp-hero.webp">
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&family=Source+Code+Pro:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css?v=20260729a">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Article","headline":"Build a Hardware MVP With Simulation — the Founder's Playbook","description":"What an MVP means for hardware and deep-tech startups, why simulation-built virtual prototypes de-risk fundraising, what investors and SBIR reviewers want to see, and a 4-step build process.","datePublished":"2026-07-29","dateModified":"2026-07-29","author":{"@type":"Organization","name":"Fed Supernova Simulation Solutions"},"publisher":{"@type":"Organization","name":"Fed Supernova Simulation Solutions","url":"https://www.sbir-simulation-funding.com/"},"image":"https://www.sbir-simulation-funding.com/images/mvp-hero.webp","mainEntityOfPage":"https://www.sbir-simulation-funding.com/mvp"},
+ {"@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Home","item":"https://www.sbir-simulation-funding.com/"},
+  {"@type":"ListItem","position":2,"name":"MVP Playbook","item":"https://www.sbir-simulation-funding.com/mvp"}]},
+ {"@type":"HowTo","name":"How to build a hardware MVP with engineering simulation","step":[
+  {"@type":"HowToStep","position":1,"name":"Define the one claim your MVP must prove","text":"Reduce your pitch to the single technical claim that, if true, makes the company fundable — then design the smallest simulation campaign that tests it."},
+  {"@type":"HowToStep","position":2,"name":"Model the physics that carries the claim","text":"Build a virtual prototype in the physics that matters: FEA for structures, CFD for flow and thermal, computational electromagnetics for antennas and RF, or a coupled multiphysics model when they interact."},
+  {"@type":"HowToStep","position":3,"name":"Iterate the design in software, not in the shop","text":"Run design sweeps and what-if studies against your requirements, fixing failures virtually at a fraction of physical prototype cost and time."},
+  {"@type":"HowToStep","position":4,"name":"Package the evidence for the audience","text":"Turn converged, defensible results into the artifacts investors and grant reviewers evaluate: performance curves, margin tables, contour plots, and an honest validation plan."}
+ ]},
+ {"@type":"FAQPage","mainEntity":[
+  {"@type":"Question","name":"What is an MVP for a hardware startup?","acceptedAnswer":{"@type":"Answer","text":"For hardware and deep-tech companies, a minimum viable product is rarely a sellable device — it's the minimum credible evidence that your core technical claim is true. Often that evidence is a virtual prototype: a physics-based simulation model of your design showing it meets the requirement that matters, before you spend on physical builds."}},
+  {"@type":"Question","name":"Do investors accept simulation results as MVP evidence?","acceptedAnswer":{"@type":"Answer","text":"Serious hardware investors evaluate feasibility evidence, and physics-based simulation from industry-standard tools is a recognized form of it — especially when presented with assumptions, boundary conditions, mesh convergence, and a plan for physical validation. It demonstrates both technical depth and capital efficiency."}},
+  {"@type":"Question","name":"Can simulation results help win SBIR funding?","acceptedAnswer":{"@type":"Answer","text":"SBIR Phase I exists to establish feasibility, and proposals that arrive with preliminary modeling results demonstrate a head start reviewers can score. Simulation evidence also strengthens the technical-approach section — it shows you know which physics governs your problem and how you'll retire risk."}}
+ ]}
+]}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="/"><img class="logo" src="/assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a>
+    <nav class="nav-links">
+      <a href="/funding">Funding Finder</a><a href="/ansys-evals">Ansys Evals</a><a href="/events">Funding Events</a>
+      <a href="/resources">Resources</a>
+      <a href="/applications">Simulation Applications</a>
+      <a href="/ansys">Ansys &amp; Support</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <div class="nav-cta"><a class="btn btn-primary btn-sm" href="/contact">Talk to an Engineer</a></div>
+    <button class="hamburger" data-drawer-open aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  </div>
+</header>
+<div class="drawer-backdrop" data-drawer-close></div>
+<aside class="drawer" aria-label="Menu">
+  <div class="drawer-head"><a class="brand" href="/"><img class="logo" src="/assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a><button class="close-x" data-drawer-close aria-label="Close">&#10005;</button></div>
+  <a href="/" data-drawer-close>Home</a>
+  <a href="/funding" data-drawer-close>Funding Finder</a>
+  <a href="/ansys-evals" data-drawer-close>Ansys Evals</a>
+  <a href="/events" data-drawer-close>Funding Events</a>
+  <a href="/resources" data-drawer-close>Resources</a>
+  <a href="/applications" data-drawer-close>Simulation Applications</a>
+  <a href="/ansys" data-drawer-close>Ansys &amp; Support</a>
+  <a href="/contact" data-drawer-close>Contact</a>
+  <div class="drawer-cta"><a class="btn btn-primary" href="/contact" data-drawer-close>Talk to an Engineer</a><a class="btn btn-ghost" href="mailto:info@sbir-simulation-funding.com" data-drawer-close>Email Us</a></div>
+</aside>
+
+<!-- HERO -->
+<section class="tight" style="padding-bottom:24px">
+  <div class="wrap">
+    <span class="eyebrow">The MVP Playbook</span>
+    <h1>Your MVP isn't a prototype. It's <span style="color:var(--accent)">proof</span>.</h1>
+    <p class="lede">Software startups demo an app. Hardware and deep-tech founders have a harder job: prove the physics works before anyone writes a check. The good news — you don't need a machine shop to do it. A <b>simulation-built MVP</b> (a virtual prototype backed by finite element analysis, computational fluid dynamics, and computational electromagnetics) is how funded hardware companies de-risk their first raise and their first federal proposal. This page is the whole playbook: what an MVP really means in deep tech, what investors and grant reviewers actually look for, and the four steps from claim to evidence.</p>
+    <img class="lead-img reveal" src="/images/mvp-hero.webp"
+         srcset="/images/mvp-hero-480.webp 480w, /images/mvp-hero-960.webp 960w, /images/mvp-hero.webp 1024w"
+         sizes="(max-width: 1000px) 100vw, 960px"
+         width="1024" height="1024" loading="lazy" style="margin-top:26px"
+         alt="Startup founders pitching investors with a thermal CFD simulation of a turbine engine displayed on the conference room screen">
+  </div>
+</section>
+
+<!-- REDEFINE MVP -->
+<section style="padding-top:8px">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">First, fix the definition</span>
+      <h2>What "minimum viable product" means when your product is made of physics</h2>
+    </div>
+    <div class="grid cols-3">
+      <div class="card reveal">
+        <h3>Not the smallest thing you can sell</h3>
+        <p>In deep tech, the MVP is the <b>minimum credible evidence that your core technical claim is true</b>. Nobody expects a sellable hypersonic vehicle or a certified medical device at seed stage. They expect proof you understand — and have started to retire — the physics risk.</p>
+      </div>
+      <div class="card reveal">
+        <h3>The virtual prototype</h3>
+        <p>A physics-based model of your design — an FEA stress model, a CFD flow and thermal model, an HFSS antenna model — solved with the same commercial-grade tools primes and national labs trust. It's a real engineering artifact: interrogable, criticizable, improvable.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Why "viable" = "believable"</h3>
+        <p>An MVP works when a skeptical expert can push on it and it holds. That's why the standard is <b>defensible simulation</b> — stated assumptions, converged meshes, sane boundary conditions, results with margins — not a render from a CAD tool that's never seen a solver.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY / WHAT INVESTORS WANT -->
+<section class="tight">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The money's point of view</span>
+      <h2>What investors and grant reviewers actually want to see</h2>
+      <p class="lede">Both audiences are running the same calculation: <i>how much risk is left, and how efficiently does this team retire it?</i> A simulation-built MVP answers both at once.</p>
+    </div>
+    <div class="grid cols-2">
+      <div class="card reveal">
+        <h3>Investors: de-risked physics, capital efficiency</h3>
+        <ul class="checks" style="margin-top:14px">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>Evidence over adjectives.</b> A temperature contour showing your power module stays under its junction limit beats "revolutionary thermal design" on any slide.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>Iteration speed.</b> Ten design variants explored in software costs days; ten machined prototypes costs months and a seed round. Simulation-first teams read as capital-efficient.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>Team credibility.</b> Knowing which physics governs your product — and modeling it correctly — is the cheapest possible demonstration that the team is technically real.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>A validation plan.</b> Nobody believes simulation alone forever. Showing the physical test that will confirm the model — and what it costs — turns your raise into a milestone story.</span></li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h3>Grant reviewers: feasibility with a head start</h3>
+        <ul class="checks" style="margin-top:14px">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>Phase I <i>is</i> a feasibility study.</b> SBIR/STTR Phase I exists to establish that a concept can work. Arriving with preliminary modeling results means part of that question is already answered — reviewers notice.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>A sharper technical approach.</b> "We will characterize thermal margin via conjugate heat transfer analysis in Fluent, then validate on a benchtop rig" reads like a plan. Vague claims read like risk.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>Agency-relevant metrics.</b> DoD, DOE, and NASA reviewers think in requirements — range, efficiency, mass, survivability. Simulation lets you speak in their units from day one.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>Continuity into Phase II.</b> The model you build now becomes the design tool of your Phase II prototype program — one story, compounding value. <a href="/simulation-for-sbir">More on simulation in SBIR proposals &rarr;</a></span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE 4 STEPS -->
+<section>
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">The process</span>
+      <h2>Four steps from claim to fundable evidence</h2>
+    </div>
+    <div class="grid cols-4">
+      <div class="card reveal">
+        <h3>1 · Define the one claim</h3>
+        <p>Reduce the pitch to the single technical claim that, if true, makes the company fundable. <i>"Our heat exchanger rejects 2&times; the heat at half the mass."</i> <i>"Our antenna holds gain across the band in a conformal package."</i> The MVP exists to test that claim — nothing else. Scope discipline here is what makes the rest fast.</p>
+      </div>
+      <div class="card reveal">
+        <h3>2 · Model the governing physics</h3>
+        <p>Build the virtual prototype in the physics that carries the claim: <b>FEA</b> in Ansys Mechanical for stress, vibration, and fatigue; <b>CFD</b> in Fluent for aero, thermal, and combustion; <b>HFSS</b> for antennas, radar, and RF; <b>Maxwell</b> for motors and actuators; <b>LS-DYNA</b> for impact and blast. When physics couple — fluid-structure interaction, electrothermal, EMI — model the coupling, because that's usually where designs die.</p>
+      </div>
+      <div class="card reveal">
+        <h3>3 · Iterate in software, not the shop</h3>
+        <p>Sweep the design space against your requirement: geometry variants, materials, operating points, worst cases. Every failure found in the solver is a prototype you didn't machine and a month you didn't lose. Tools like Ansys Discovery make the early loop nearly interactive; the flagship solvers make the final numbers defensible.</p>
+      </div>
+      <div class="card reveal">
+        <h3>4 · Package for the audience</h3>
+        <p>Converged results become the artifacts your audience evaluates: performance curves against the requirement, margin tables, contour plots that tell the story in one glance, assumptions stated plainly — plus the physical validation plan and its cost. That package <i>is</i> the MVP: minimum, viable, and pointed straight at the check.</p>
+      </div>
+    </div>
+    <p style="margin-top:30px;text-align:center"><a class="btn btn-primary btn-lg" href="/ansys-evals">Get the tools to build it — see if you qualify for an Ansys eval &rarr;</a></p>
+  </div>
+</section>
+
+<!-- PHYSICS MENU -->
+<section class="tight">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Pick your physics</span>
+      <h2>What each simulation domain proves to your audience</h2>
+    </div>
+    <div class="grid cols-3">
+      <div class="card reveal"><h3>Structures (FEA)</h3><p>Stress, deflection, modal response, fatigue life — Ansys Mechanical. Proves the thing survives its loads at the mass you promised. The backbone of aerospace, defense, and vehicle MVPs.</p></div>
+      <div class="card reveal"><h3>Fluids &amp; thermal (CFD)</h3><p>Aerodynamics, conjugate heat transfer, combustion — Fluent and CFX. Proves range, efficiency, cooling margin: the numbers propulsion, energy, and electronics-cooling pitches live or die on.</p></div>
+      <div class="card reveal"><h3>Electromagnetics</h3><p>Antenna patterns, radar cross-section, EMI/EMC, signal &amp; power integrity — HFSS, Maxwell, SIwave, Q3D. Proves your link closes, your board is quiet, your array steers. Essential for comms, radar, and autonomy MVPs.</p></div>
+      <div class="card reveal"><h3>Explicit dynamics</h3><p>Impact, shock, blast, crash — LS-DYNA. Proves survivability claims for defense hardware and safety claims for everything else, in regimes no early-stage team can afford to test physically at scale.</p></div>
+      <div class="card reveal"><h3>Coupled multiphysics</h3><p>Fluid-structure interaction, electrothermal-mechanical stacks, thermal-structural cycling. The realistic failure modes live in the couplings — modeling them is what separates a credible MVP from a pretty one.</p></div>
+      <div class="card reveal"><h3>Mission &amp; systems</h3><p>Orbits, coverage, link budgets, mission timelines — STK and ODTK. For space and autonomy companies, proves the system-level story: not just that the satellite works, but that the constellation delivers.</p></div>
+    </div>
+    <p style="margin-top:26px"><a class="btn btn-ghost" href="/applications">See all 20 application areas we support &rarr;</a></p>
+  </div>
+</section>
+
+<!-- HOW TO GET THE TOOLS -->
+<section class="tight">
+  <div class="wrap">
+    <div class="cta-band reveal" style="text-align:left">
+      <span class="eyebrow">The practical part</span>
+      <h2>You can start this before you have funding — or a company.</h2>
+      <p class="lede" style="max-width:80ch">The tools in this playbook are accessible earlier than most founders think: short-term <a href="/ansys-evals" style="color:inherit;text-decoration:underline">Ansys evaluation licenses</a> with live engineering support for teams with a real problem to prove, the discounted <a href="https://www.ansys.com/startup-program" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Ansys Startup Program</a> for eligible early-stage companies, and free self-paced learning to ramp up meanwhile. Ask us what your stage unlocks — the reply takes under 20 minutes, and evaluations and Startup Program access are granted by Ansys and its partners based on eligibility, so all we promise is a straight answer.</p>
+      <div class="btns" style="justify-content:flex-start">
+        <a class="btn btn-primary btn-lg" href="/contact">Ask what your stage unlocks</a>
+        <a class="btn btn-ghost btn-lg" href="/ansys-evals">How evals work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand"><a class="brand" href="/"><img class="logo" src="/assets/logo.svg" alt=""><span class="name"><b>Fed Supernova</b><span>Simulation Solutions</span></span></a><p style="margin-top:16px">Ansys simulation software and engineering support for founders pursuing defense and federal non-dilutive funding.</p></div>
+      <div><h5>Explore</h5><a href="/funding">Funding Finder</a><a href="/ansys-evals">Ansys Evals</a><a href="/events">Funding Events</a><a href="/resources">SBIR Resources</a><a href="/applications">Simulation Applications</a><a href="/ansys">Ansys &amp; Support</a><a href="/contact">Contact</a></div>
+      <div><h5>Funding Sources</h5><a href="/funding">SBIR / STTR</a><a href="/funding">AFWERX / SpaceWERX</a><a href="/funding">DIU &amp; NSIC</a><a href="/funding">DARPA &amp; xTech</a></div>
+      <div><h5>Get in Touch</h5><a href="mailto:info@sbir-simulation-funding.com">info@sbir-simulation-funding.com</a><a href="/contact">Request a meeting</a></div>
+    </div>
+    <p class="disclaimer"><b>Independent &amp; not affiliated.</b> Fed Supernova Simulation Solutions is an independent Ansys reseller and engineering-support provider. We are not affiliated with, endorsed by, or sponsored by Capital Factory, the "Fed Supernova" conference, Ansys Inc., SimuTech Group, the U.S. Department of Defense, or any funding agency named on this site. Program names, award amounts, and eligibility rules are summarized from public sources for convenience only, may change, and must be verified on each agency's official website. We provide simulation software and engineering support. We do not prepare, advise on, or assist with grant, SBIR/STTR, or contract applications. Evaluation licenses, the Ansys Startup Program, and any support are programs of Ansys, Inc. and its authorized channel partners, granted at their sole discretion; nothing on this site guarantees software access, licensing, funding, eligibility, or support, and nothing here creates any obligation for Ansys, its partners, or us. You are free to contact Ansys directly or work with any authorized Ansys channel partner. <a href="/about">About this site &amp; disclaimer</a>.</p>
+    <div class="footer-bottom"><span>&copy; <span data-year>2026</span> Fed Supernova Simulation Solutions. All rights reserved.</span><span>Ansys&reg; is a registered trademark of Ansys, Inc. Used for identification only.</span></div>
+  </div>
+</footer>
+<script src="/js/main.js?v=20260729a"></script>
+</body>
+</html>

@@ -42,6 +42,11 @@ Founders for whom two things are true at once: they are looking for funding (fed
 - SBIR vs STTR: https://www.sbir-simulation-funding.com/sttr-vs-sbir — which program fits, especially for university-affiliated founders.
 - Simulation for SBIR proposals: https://www.sbir-simulation-funding.com/simulation-for-sbir — using engineering simulation as feasibility evidence in Phase I/II.
 - SBIR registration checklist: https://www.sbir-simulation-funding.com/sbir-registration-checklist — SAM.gov, SBIR.gov, agency portals, and the 2–6 week timeline.
+- Ansys evaluation licenses for startups: https://www.sbir-simulation-funding.com/ansys-evals — what an Ansys eval is: short-term full-capability access with live engineering support from a channel partner and free self-paced training; usable to evaluate Ansys and to build MVP evidence for investors and SBIR/DoD/DOE/NASA proposals.
+- The MVP playbook: https://www.sbir-simulation-funding.com/mvp — what an MVP means for hardware/deep-tech startups, what investors and grant reviewers want to see, and the 4-step simulation-built MVP process (FEA, CFD, electromagnetics).
+- Free Ansys software, honestly mapped: https://www.sbir-simulation-funding.com/free-ansys-software — there is no free commercial Ansys; the real options are Ansys Student (education only, size-capped), 30-day trials, evaluation licenses via channel partners, and the discounted Ansys Startup Program.
+- Ansys academic & student licenses: https://www.sbir-simulation-funding.com/ansys-academic-license — university licenses are non-commercial, non-proprietary, publishable-research only; what happens when a founder spins out.
+- Commercial simulation licenses: https://www.sbir-simulation-funding.com/commercial-simulation-licenses — lease vs perpetual, why product development requires commercial terms, and the eval → Startup Program → full license ladder.
 - About this site: https://www.sbir-simulation-funding.com/about — purely informational; nothing guaranteed, promised, or owed to anyone.
 
 ## Free Ansys learning (official Ansys links)
