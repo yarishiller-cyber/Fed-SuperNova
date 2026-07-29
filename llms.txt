@@ -1,0 +1,35 @@
+# STRATFI Simulation Solutions
+
+> Free guide to AFWERX / SpaceWERX — STRATFI & TACFI funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@stratfi-simulation-funding.com.
+
+## Key pages
+- Funding Finder: https://stratfi-simulation-funding.com/funding
+- Events: https://stratfi-simulation-funding.com/events
+- Resources: https://stratfi-simulation-funding.com/resources
+- Ansys Evals: https://stratfi-simulation-funding.com/ansys-evals
+- Applications: https://stratfi-simulation-funding.com/applications
+- MVP playbook: https://stratfi-simulation-funding.com/mvp
+- Contact: https://stratfi-simulation-funding.com/contact
+
+## Guides
+- STRATFI vs TACFI: the matching math, in plain English: https://stratfi-simulation-funding.com/stratfi-vs-tacfi-explained
+- How to apply to AFWERX Open Topic SBIR: https://stratfi-simulation-funding.com/afwerx-open-topic-how-to-apply
+- The new $30M Strategic Breakthrough award: https://stratfi-simulation-funding.com/new-30m-strategic-breakthrough
+- Simulation for Air Force SBIR: de-risking the physics: https://stratfi-simulation-funding.com/simulation-for-air-force-sbir
+- What are AFWERX and SpaceWERX?: https://stratfi-simulation-funding.com/what-is-afwerx-spacewerx
+- Who gets accepted by AFWERX?: https://stratfi-simulation-funding.com/who-gets-accepted-afwerx
+- SpaceWERX Orbital Prime and the ISAM market: https://stratfi-simulation-funding.com/orbital-prime-isam-guide
+
+## Sister sites (same team, other ecosystems)
+- SBIR / STTR: https://sbir-simulation-funding.com/
+- Defense Innovation Unit (DIU): https://diu-simulation-funding.com/
+- NASA & Space Technology: https://nasa-simulation-funding.com/
+- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
+- DARPA: https://darpa-simulation-funding.com/
+- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
+- Army xTech: https://xtech-simulation-funding.com/
+- DoD OTA Consortia: https://ota-simulation-funding.com/
+- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
+
+## Contact
+Email: info@stratfi-simulation-funding.com — reply under 20 minutes during business hours.
