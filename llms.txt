@@ -1,0 +1,35 @@
+# Watt Ridge Simulation Solutions
+
+> Free guide to ARPA-E & DOE Energy Innovation Funding funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@arpa-e-simulation-funding.com.
+
+## Key pages
+- Funding Finder: https://arpa-e-simulation-funding.com/funding
+- Events: https://arpa-e-simulation-funding.com/events
+- Resources: https://arpa-e-simulation-funding.com/resources
+- Ansys Evals: https://arpa-e-simulation-funding.com/ansys-evals
+- Applications: https://arpa-e-simulation-funding.com/applications
+- MVP playbook: https://arpa-e-simulation-funding.com/mvp
+- Contact: https://arpa-e-simulation-funding.com/contact
+
+## Guides
+- ARPA-E: energy moonshots, funded with grants: https://arpa-e-simulation-funding.com/what-is-arpa-e-funding
+- The ARPA-E concept paper, step by step: https://arpa-e-simulation-funding.com/arpa-e-concept-paper
+- ARPA-E vs DOE SBIR: which grant fits?: https://arpa-e-simulation-funding.com/arpa-e-vs-doe-sbir
+- DOE lab fellowships for pre-company founders: https://arpa-e-simulation-funding.com/doe-lab-fellowships-pre-company
+- Simulation for energy hardware: https://arpa-e-simulation-funding.com/simulation-for-energy-hardware
+- SCALEUP vs IGNIITE: scale vs. start: https://arpa-e-simulation-funding.com/scaleup-vs-igniite
+- DOE clean-energy funding after the 2025 reorg: https://arpa-e-simulation-funding.com/doe-clean-energy-programs-2026
+
+## Sister sites (same team, other ecosystems)
+- SBIR / STTR: https://sbir-simulation-funding.com/
+- AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
+- Defense Innovation Unit (DIU): https://diu-simulation-funding.com/
+- NASA & Space Technology: https://nasa-simulation-funding.com/
+- DARPA: https://darpa-simulation-funding.com/
+- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
+- Army xTech: https://xtech-simulation-funding.com/
+- DoD OTA Consortia: https://ota-simulation-funding.com/
+- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
+
+## Contact
+Email: info@arpa-e-simulation-funding.com — reply under 20 minutes during business hours.
