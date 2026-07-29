@@ -1,0 +1,35 @@
+# Prototype-Ready Simulation Solutions
+
+> Free guide to DoD OTA Consortia — How to Join & Win funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@ota-simulation-funding.com.
+
+## Key pages
+- Funding Finder: https://ota-simulation-funding.com/funding
+- Events: https://ota-simulation-funding.com/events
+- Resources: https://ota-simulation-funding.com/resources
+- Ansys Evals: https://ota-simulation-funding.com/ansys-evals
+- Applications: https://ota-simulation-funding.com/applications
+- MVP playbook: https://ota-simulation-funding.com/mvp
+- Contact: https://ota-simulation-funding.com/contact
+
+## Guides
+- What is an OTA, and why do startups love it?: https://ota-simulation-funding.com/what-is-an-ota
+- Every major DoD OTA consortium, and what it costs to join: https://ota-simulation-funding.com/every-dod-ota-consortium-cost-to-join
+- How consortium membership actually works: https://ota-simulation-funding.com/how-consortium-membership-works
+- How to write a winning RPP white paper: https://ota-simulation-funding.com/how-to-write-winning-rpp-white-paper
+- Prototype to production: the follow-on OT that changes everything: https://ota-simulation-funding.com/prototype-to-production-ot
+- OTA vs FAR contract vs SBIR: which path fits?: https://ota-simulation-funding.com/ota-vs-far-vs-sbir
+- Simulation for OTA prototypes: de-risking the physics: https://ota-simulation-funding.com/simulation-for-ota-prototypes
+
+## Sister sites (same team, other ecosystems)
+- SBIR / STTR: https://sbir-simulation-funding.com/
+- AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
+- Defense Innovation Unit (DIU): https://diu-simulation-funding.com/
+- NASA & Space Technology: https://nasa-simulation-funding.com/
+- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
+- DARPA: https://darpa-simulation-funding.com/
+- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
+- Army xTech: https://xtech-simulation-funding.com/
+- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
+
+## Contact
+Email: info@ota-simulation-funding.com — reply under 20 minutes during business hours.
