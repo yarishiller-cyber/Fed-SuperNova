@@ -1,0 +1,36 @@
+# DeepProof Simulation Solutions
+
+> Free guide to DARPA Funding for Deep-Tech Startups funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@darpa-simulation-funding.com.
+
+## Key pages
+- Funding Finder: https://darpa-simulation-funding.com/funding
+- Events: https://darpa-simulation-funding.com/events
+- Resources: https://darpa-simulation-funding.com/resources
+- Ansys Evals: https://darpa-simulation-funding.com/ansys-evals
+- Applications: https://darpa-simulation-funding.com/applications
+- MVP playbook: https://darpa-simulation-funding.com/mvp
+- Contact: https://darpa-simulation-funding.com/contact
+
+## Guides
+- What is DARPA, and how does it fund deep-tech startups?: https://darpa-simulation-funding.com/what-is-darpa
+- How to read and respond to a DARPA BAA: https://darpa-simulation-funding.com/how-to-read-respond-darpa-baa
+- DARPA seedlings and Disruption Opportunities: https://darpa-simulation-funding.com/darpa-seedlings-disruption-opportunities
+- DARPA's Embedded Entrepreneurship Initiative (EEI): https://darpa-simulation-funding.com/embedded-entrepreneurship-initiative
+- Using simulation to win DARPA programs: https://darpa-simulation-funding.com/simulation-to-win-darpa-programs
+- How DARPA selects performers: https://darpa-simulation-funding.com/how-darpa-selects-performers
+- DARPA SBIR/STTR vs. a program BAA: https://darpa-simulation-funding.com/sbir-sttr-vs-baa-darpa
+- DARPAConnect: the free on-ramp to DARPA: https://darpa-simulation-funding.com/darpaconnect-getting-started
+
+## Sister sites (same team, other ecosystems)
+- SBIR / STTR: https://sbir-simulation-funding.com/
+- AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
+- Defense Innovation Unit (DIU): https://diu-simulation-funding.com/
+- NASA & Space Technology: https://nasa-simulation-funding.com/
+- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
+- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
+- Army xTech: https://xtech-simulation-funding.com/
+- DoD OTA Consortia: https://ota-simulation-funding.com/
+- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
+
+## Contact
+Email: info@darpa-simulation-funding.com — reply under 20 minutes during business hours.
