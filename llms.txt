@@ -22,6 +22,8 @@
 - Army Direct-to-Phase-II: Skipping Phase I: https://xtech-simulation-funding.com/army-direct-to-phase-2
 - DEVCOM & CCDC Labs: How the Army's R&D Command Buys: https://xtech-simulation-funding.com/devcom-ccdc-how-they-buy
 - How to Find Your Army Transition Partner (the TPOC): https://xtech-simulation-funding.com/find-army-tpoc-transition-partner
+- SBIR Data Rights: Who Actually Owns Your IP After an Army SBIR: https://xtech-simulation-funding.com/sbir-data-rights-who-owns-your-ip
+- How to Register for Army SBIR and xTech: SAM.gov, SBIR.gov, and DSIP: https://xtech-simulation-funding.com/register-for-army-sbir-and-xtech
 
 ## Sister sites (same team, other ecosystems)
 - SBIR / STTR: https://sbir-simulation-funding.com/
