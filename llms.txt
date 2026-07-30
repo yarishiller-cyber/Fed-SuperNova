@@ -18,17 +18,16 @@
 - Simulate before your first flight: https://nasa-simulation-funding.com/simulation-before-your-first-flight
 - NASA money for idea-stage and stealth teams: https://nasa-simulation-funding.com/nasa-money-for-idea-stage-and-stealth-teams
 - The defense off-ramp for space startups: https://nasa-simulation-funding.com/the-defense-off-ramp-for-space-startups
+- NASA SBIR/STTR: how to apply, and how to read the 2026 topics: https://nasa-simulation-funding.com/nasa-sbir-sttr-how-to-apply-2026
+- CLPS: how lunar-payload startups actually win contracts: https://nasa-simulation-funding.com/clps-how-lunar-startups-win-contracts
+- The CubeSat Launch Initiative: NASA's free ride to orbit: https://nasa-simulation-funding.com/cubesat-launch-initiative-free-rides-to-orbit
+- ISS National Lab and in-space manufacturing: where the money is: https://nasa-simulation-funding.com/iss-national-lab-in-space-manufacturing-funding
 
 ## Sister sites (same team, other ecosystems)
 - SBIR / STTR: https://sbir-simulation-funding.com/
 - AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
 - Defense Innovation Unit (DIU): https://diu-simulation-funding.com/
-- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
-- DARPA: https://darpa-simulation-funding.com/
-- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
 - Army xTech: https://xtech-simulation-funding.com/
-- DoD OTA Consortia: https://ota-simulation-funding.com/
-- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
 
 ## Contact
 Email: info@nasa-simulation-funding.com — reply under 20 minutes during business hours.
