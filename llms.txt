@@ -23,6 +23,8 @@
 - The DSIP portal, step by step: how to actually hit submit: https://stratfi-simulation-funding.com/dsip-portal-submission-walkthrough
 - SBIR Phase III: the sole-source superpower most founders never use: https://stratfi-simulation-funding.com/sbir-phase-iii-sole-source-explained
 - How to find your Air Force customer and the memo that unlocks Phase II: https://stratfi-simulation-funding.com/find-air-force-customer-tpoc-memo
+- How to Raise the STRATFI & TACFI Match: https://stratfi-simulation-funding.com/afwerx-matching-funds-guide
+- Who Qualifies for AFWERX SBIR Funding: https://stratfi-simulation-funding.com/afwerx-eligibility-requirements
 
 ## Sister sites (same team, other ecosystems)
 - SBIR / STTR: https://sbir-simulation-funding.com/
