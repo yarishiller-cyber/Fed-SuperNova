@@ -22,6 +22,8 @@
 - CLPS: how lunar-payload startups actually win contracts: https://nasa-simulation-funding.com/clps-how-lunar-startups-win-contracts
 - The CubeSat Launch Initiative: NASA's free ride to orbit: https://nasa-simulation-funding.com/cubesat-launch-initiative-free-rides-to-orbit
 - ISS National Lab and in-space manufacturing: where the money is: https://nasa-simulation-funding.com/iss-national-lab-in-space-manufacturing-funding
+- NASA SBIR vs STTR: which non-dilutive door do you walk through?: https://nasa-simulation-funding.com/sbir-vs-sttr-space-startup
+- Does NASA own your invention? The truth about SBIR data rights.: https://nasa-simulation-funding.com/who-owns-ip-nasa-sbir-data-rights
 
 ## Sister sites (same team, other ecosystems)
 - SBIR / STTR: https://sbir-simulation-funding.com/
