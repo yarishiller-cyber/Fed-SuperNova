@@ -612,3 +612,7 @@ body {
 .hero-h1 span, h1 span { color: #0E7C7B; }
 .tag.site { background: #0E7C7B; color:#fff; }
 .rc-cat { color: #0E7C7B; }
+.crumbs { font-size:.82rem; color:var(--ink-dim); margin-bottom:6px; }
+.crumbs a { color:var(--ink-dim); }
+.crumbs a:hover { color:#0E7C7B; }
+.crumbs span { margin:0 4px; opacity:.6; }

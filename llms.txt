@@ -19,17 +19,16 @@
 - Is NSIN still active after joining DIU?: https://diu-simulation-funding.com/is-nsin-still-active
 - Simulation for dual-use hardware: https://diu-simulation-funding.com/simulation-for-dual-use-hardware
 - The counter-UAS simulation playbook: https://diu-simulation-funding.com/counter-uas-simulation-playbook
+- How to Write a Winning DIU Solution Brief: https://diu-simulation-funding.com/how-to-write-a-winning-diu-solution-brief
+- How to Get on the Blue UAS Cleared List: https://diu-simulation-funding.com/how-to-get-on-the-blue-uas-cleared-list
+- Prototype OT to Production OT: Crossing the Valley of Death: https://diu-simulation-funding.com/prototype-ot-to-production-crossing-the-valley-of-death
+- DIU Areas of Interest in 2026 and How to Match Your Tech: https://diu-simulation-funding.com/diu-areas-of-interest-2026-match-your-tech
 
 ## Sister sites (same team, other ecosystems)
 - SBIR / STTR: https://sbir-simulation-funding.com/
 - AFWERX / SpaceWERX (STRATFI-TACFI): https://stratfi-simulation-funding.com/
 - NASA & Space Technology: https://nasa-simulation-funding.com/
-- ARPA-E & DOE Energy: https://arpa-e-simulation-funding.com/
-- DARPA: https://darpa-simulation-funding.com/
-- Medical Devices & FDA Simulation: https://meddevice-simulation-funding.com/
 - Army xTech: https://xtech-simulation-funding.com/
-- DoD OTA Consortia: https://ota-simulation-funding.com/
-- Defense Scale-Up (APFIT & OSC): https://apfit-simulation-funding.com/
 
 ## Contact
 Email: info@diu-simulation-funding.com — reply under 20 minutes during business hours.
