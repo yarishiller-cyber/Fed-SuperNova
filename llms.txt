@@ -1,6 +1,6 @@
 # Orbital Simulation Solutions
 
-> Free guide to NASA Startup & Space Technology Funding funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@nasa-simulation-funding.com.
+> Free guide to NASA & Space Technology funding for U.S. deep-tech founders (including stealth and pre-incorporation teams), plus how Ansys simulation validates the technology those funders back. Independent Ansys reseller + engineering support. We do not give application advice and guarantee nothing. Reply under 20 min: info@nasa-simulation-funding.com.
 
 ## Key pages
 - Funding Finder: https://nasa-simulation-funding.com/funding
